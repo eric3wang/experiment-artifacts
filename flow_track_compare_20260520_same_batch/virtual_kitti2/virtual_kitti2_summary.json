@@ -1,0 +1,9 @@
+{
+  "baseline_better_batches": 39,
+  "baseline_epe": 2.7211101979017256,
+  "num_batches": 50,
+  "num_finite_batches": 50,
+  "ssl_better_batches": 11,
+  "ssl_epe": 4.468151314258575,
+  "ssl_minus_baseline_epe": 1.7470411163568498
+}
