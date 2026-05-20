@@ -29,7 +29,10 @@ Date: 2026-05-20
 
 - `point_odyssey/point_odyssey_summary.json`
 - `point_odyssey/point_odyssey_per_batch.csv`
+- `point_odyssey/point_odyssey_batch_000.gif`
 - `virtual_kitti2/virtual_kitti2_summary.json`
 - `virtual_kitti2/virtual_kitti2_per_batch.csv`
+- `virtual_kitti2/virtual_kitti2_batch_000.gif`
 - `tartanair_v2/tartanair_v2_summary.json`
 - `tartanair_v2/tartanair_v2_per_batch.csv`
+- `tartanair_v2/tartanair_v2_batch_000.gif`
