@@ -36,6 +36,16 @@ top-right. Marker green = visible, red = occluded.
 
 ![single track k77799](gifs/single_track_AbandonedCable_Data_easy_P001_k77799_f1044.gif)
 
+### Amodal round trip: visible -> occluded -> visible again
+
+The track stays VALID through the occlusion (amodal; the grey trail keeps extending) and
+the visibility flag returns the moment the point re-emerges -- watch the expected/depth-map
+numbers disagree while occluded and re-agree on reappearance.
+
+![reappear k14363](gifs/reappear_single_track_AbandonedCable_Data_easy_P001_k14363_f275.gif)
+
+![reappear k11696](gifs/reappear_single_track_AbandonedCable_Data_easy_P001_k11696_f235.gif)
+
 ## chunk_overlays/ (stills)
 Single-frame versions of the chunk-alignment check across the whole temporal window
 (rel 0 .. end), TAv2 AbandonedCable/Data_easy/P001 t001 (frame_start=296) and VK2
