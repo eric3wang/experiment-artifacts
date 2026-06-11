@@ -25,6 +25,17 @@ tracked point goes behind geometry):
 
 ![visibility AmericanDiner](gifs/tav2_visibility_AmericanDiner_P000.gif)
 
+## gifs/ single-track occlusion verification
+
+One track followed through its visible -> occluded transition; the text bar shows the
+actual decision quantities per frame (expected z-depth of the anchored world point vs the
+depth map sampled at the track position; occluded iff gap > 0.1 m and > 0.5 %). Zoom inset
+top-right. Marker green = visible, red = occluded.
+
+![single track k12352](gifs/single_track_AbandonedCable_Data_easy_P001_k12352_f215.gif)
+
+![single track k77799](gifs/single_track_AbandonedCable_Data_easy_P001_k77799_f1044.gif)
+
 ## chunk_overlays/ (stills)
 Single-frame versions of the chunk-alignment check across the whole temporal window
 (rel 0 .. end), TAv2 AbandonedCable/Data_easy/P001 t001 (frame_start=296) and VK2
