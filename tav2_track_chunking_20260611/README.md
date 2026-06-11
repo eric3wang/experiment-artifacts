@@ -3,15 +3,35 @@
 Branch: `ericwang/tav2-track-chunking` (stacked on samli/po-chunking-optimization, PR #117962).
 Nothing uploaded to Azure yet — all artifacts below come from local SKIP_UPLOAD sample runs.
 
-## chunk_overlays/
-Tracks read back **from the offline chunk tree** (t001/k000) drawn onto RGB frames fetched
-at `frame_start + relative_index` — visual proof the chunk-relative frame mapping is right.
-- `tav2_P001/`: TartanAir-V2 AbandonedCable/Data_easy/P001 (frame_start=296)
-- `vk2_scene20/`: Virtual KITTI 2 Scene20/clone Camera_0 (frame_start=279)
+## gifs/ — animated overlays (start here)
 
-## visibility/
-TAv2 visibility regeneration overlays (green = visible, red = newly marked occluded),
-depth-reprojection occlusion check (0.1 m + 0.5 % thresholds, amodal: valids untouched).
+80 consecutive frames each, 10 fps. Green = visible track, red = valid-but-occluded.
+
+**Chunk alignment** (tracks read back from the offline chunk tree, RGB fetched at
+`frame_start + relative` — dots must stick to scene features):
+
+![tav2 chunk](gifs/tav2_chunk_t001_k000_AbandonedCable_P001.gif)
+
+![vk2 chunk](gifs/vk2_chunk_t001_k000_Scene20.gif)
+
+**Regenerated visibility** (depth-reprojection occlusion; red dots flip on when the
+tracked point goes behind geometry):
+
+![visibility AbandonedCable](gifs/tav2_visibility_AbandonedCable_P001.gif)
+
+![visibility Downtown](gifs/tav2_visibility_Downtown_P000.gif)
+
+![visibility ForestEnv](gifs/tav2_visibility_ForestEnv_P000.gif)
+
+![visibility AmericanDiner](gifs/tav2_visibility_AmericanDiner_P000.gif)
+
+## chunk_overlays/ (stills)
+Single-frame versions of the chunk-alignment check across the whole temporal window
+(rel 0 .. end), TAv2 AbandonedCable/Data_easy/P001 t001 (frame_start=296) and VK2
+Scene20/clone Camera_0 t001 (frame_start=279).
+
+## visibility/ (stills)
+Time-lapse stills across each full trajectory.
 
 | sequence | visible (old -> new) | flipped | drift px (median / p90) | anchor fallback |
 |---|---|---|---|---|
