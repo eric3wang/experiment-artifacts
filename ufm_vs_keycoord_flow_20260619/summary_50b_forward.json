@@ -1,0 +1,23 @@
+{
+  "point_odyssey": {
+    "num_batches": 50,
+    "num_finite_batches": 50,
+    "ours_epe": 2.6122393941879274,
+    "ufm_epe": 2.131042584180832,
+    "valid_points": 764710
+  },
+  "tartanair_v2": {
+    "num_batches": 50,
+    "num_finite_batches": 50,
+    "ours_epe": 24.444606924057005,
+    "ufm_epe": 2.0787268435955046,
+    "valid_points": 376464
+  },
+  "virtual_kitti2": {
+    "num_batches": 50,
+    "num_finite_batches": 50,
+    "ours_epe": 8.067852158546447,
+    "ufm_epe": 3.966530957221985,
+    "valid_points": 450928
+  }
+}
