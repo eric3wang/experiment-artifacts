@@ -1,0 +1,32 @@
+{
+  "title": "I2RT YAM pick-and-place in Isaac Sim",
+  "date": "2026-10-06",
+  "description": "Actual simulator RGB recording: grasp, lift, transfer, release onto plate, and withdraw.",
+  "simulator": "Isaac Sim 5.1 / PhysX",
+  "robot_model": "I2RT YAM standard v1 with linear gripper and D405 wrist assembly",
+  "model_source": "https://github.com/i2rt-robotics/i2rt",
+  "model_revision": "120c3c81400171174604e503943f8d1ebc891058",
+  "video_duration_s": 19,
+  "fps": 12,
+  "frames": 228,
+  "result": {
+    "success": true,
+    "nominal_episodes": 1,
+    "lift_distance_m": 0.10686,
+    "settled_duration_s": 2,
+    "task_conditions_passed": 8,
+    "evidence_checks_passed": 16
+  },
+  "controller": "Scripted Cartesian waypoints, numerical URDF inverse kinematics, joint position drives. No trained policy.",
+  "limitations": [
+    "Simulation only; no physical robot connection.",
+    "One nominal success, not a robustness evaluation.",
+    "Estimated contact friction and uncalibrated actuator dynamics.",
+    "Self-collision disabled."
+  ],
+  "files": {
+    "settle.png": "6f1d33c387a16cb4c27414d2e6a3d0db268d86d5ab8d8d0fe1a74ce29fd396c1",
+    "rollout.mp4": "c281dc05342b5b8937f9ddfc29bed2b9794394564fb890dad7520e6c75d37c71",
+    "lift.png": "ad12acfe7d75aaec1577837902cb30f836f929052f47ba32d9b691ac735c353d"
+  }
+}
