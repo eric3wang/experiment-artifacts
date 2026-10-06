@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": {
+    "eight_joints": true,
+    "robot_holds_pose": true,
+    "block_stays_at_start": true,
+    "all_six_source_objects": true,
+    "source_camera_exists": true,
+    "no_external_references": true
+  },
+  "joint_hold_error": 0.002628452067825915,
+  "block_xy_error_m": 2.3066603163966823e-07,
+  "external_references": []
+}

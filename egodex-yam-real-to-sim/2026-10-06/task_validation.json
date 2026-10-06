@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "checks": {
+    "successful_result": true,
+    "finite_state_and_commands": true,
+    "shape": true,
+    "observed_lift": true,
+    "placement_center": true,
+    "resting_height": true,
+    "released_jaws": true,
+    "hand_withdrawn": true,
+    "resting_speed": true,
+    "sequence_complete": true,
+    "reset": true,
+    "frame_count": true,
+    "kinematics_matches_simulator": true,
+    "rejects_hovering": true,
+    "rejects_gripper_held": true,
+    "rejects_falling": true
+  },
+  "trajectory_shape": [
+    2280,
+    26
+  ],
+  "files": {
+    "trajectory.npy": "c6f37d980fd0881bea198023048904e0986b09e061c544c7c6e06758d65921d8",
+    "commands.npy": "d092ab34be9396ec8c240ee951b78f4b46cdc58033a243ea590b568235219d61",
+    "result.json": "62012e3f706fc6bc6ce483f655dea17872513a45c62fd4a7bad0da2cc04a1fb5"
+  },
+  "scope": "One nominal rollout and evidence checks; no robustness or hardware validation."
+}

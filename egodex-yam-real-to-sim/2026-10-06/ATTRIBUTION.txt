@@ -1,0 +1,14 @@
+Original video: Apple EgoDex dataset, test/basic_pick_place/102.mp4.
+Credit: Apple EgoDex; Ryan Hoque, Peide Huang, David J. Yoon, Mouli Sivapurapu, Jian Zhang (2025).
+Source video is redistributed unchanged for this research demonstration.
+SHA-256: f4896ee587494723d5005ffadbf0f55f8e4d99c8df79a200037e6006df0880fc
+Dataset source and license statement: https://github.com/apple-aiml-research/ml-egodex#license
+The official source specifies CC-by-NC-ND terms for the dataset. The repository's software LICENSE is a separate license, not the dataset license. Source media retain the dataset's noncommercial/no-derivatives terms; they are not relicensed by this artifact repository.
+Paper: https://arxiv.org/abs/2505.11709
+
+Robot geometry: I2RT YAM v1, linear_4310 gripper and D405 assembly.
+Source: https://github.com/i2rt-robotics/i2rt
+Revision: 120c3c81400171174604e503943f8d1ebc891058
+MIT license retained in I2RT_LICENSE.txt for the converted robot assets.
+
+Simulator recording: generated in Isaac Sim 5.1 / PhysX. Approximate first-frame scene reconstruction from manual contours, camera metadata and assumed 20 cm plate diameter. No depth or SAM3D model was run. Human motion is not retargeted; a scripted YAM controller executes the pick-and-place task. The reconstruction excludes the human actor and approximates object dimensions, materials and hidden surfaces.

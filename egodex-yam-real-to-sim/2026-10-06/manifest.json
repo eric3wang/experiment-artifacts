@@ -1,0 +1,51 @@
+{
+  "title": "First-frame EgoDex tabletop in Isaac with YAM",
+  "source_video": "Apple EgoDex test/basic_pick_place/102.mp4; redistributed unchanged",
+  "source_license": "CC-by-NC-ND, see ATTRIBUTION.txt and official dataset repository",
+  "method": "Manual contours and camera ray / horizontal plane intersection, scaled by assumed 20cm plate; approximate 3D primitives and extruded silhouettes",
+  "sam3d_used": false,
+  "depth_model_used": false,
+  "source_camera_intrinsics_used": true,
+  "human_trajectory_retargeted": false,
+  "robot": "I2RT YAM v1",
+  "controller": "Scripted smooth Cartesian waypoints via URDF IK and physical joint drives",
+  "success": true,
+  "task_conditions": {
+    "lifted": true,
+    "inside_plate": true,
+    "supported_height": true,
+    "gripper_open": true,
+    "hand_clear": true,
+    "slow_linear": true,
+    "slow_angular": true,
+    "controller_finished": true
+  },
+  "lift_distance_m": 0.10681477111577987,
+  "stable_time_s": 1.9999999999999953,
+  "final_position_m": [
+    0.4011598527431488,
+    0.09395774453878403,
+    0.027999987825751305
+  ],
+  "source_aligned_image": "Robot hidden for initial-layout comparison only. Task video shows robot and physical object interaction.",
+  "open_scene": "Open isaac_scene.usdc in Isaac Sim 5.1; press Play to hold the initial pose. Running the full task requires the local real_to_sim_pick.py script.",
+  "limitations": [
+    "One nominal rollout; no robustness evaluation.",
+    "Dimensions, heights, materials, collisions and drive dynamics are approximate.",
+    "Self-collision disabled.",
+    "Sponge texture, beam holes and human hands not reconstructed."
+  ],
+  "files": {
+    "scene_spec.json": "3f42c47275c3cdfbdae2b87681a0e2d659f7e596e5c3c6c2d596dbc9c8ab2e74",
+    "source_egodex_102.mp4": "f4896ee587494723d5005ffadbf0f55f8e4d99c8df79a200037e6006df0880fc",
+    "initial.png": "1a12fa18a3ebdd06b1711f7e5eb3efce37383309fffaa836525db248c6a04d9f",
+    "I2RT_LICENSE.txt": "7cd0a0224a287ebd6c45703eb6623d264c7810f8958d65de8f99e87ccd9f4891",
+    "isaac_scene.usdc": "a743067f71875b0da65c802d4856e647c2c8089835bb48df3e31d9d25fa5f47f",
+    "settle.png": "dec815b1ee0479be983c9fed6bbf8fed026d914df8b784c2dab7c4b41b555c4f",
+    "isaac_yam_pick_place.mp4": "7888183c948b37bcdb3f95f53b9685a813764d9170862dcf496290b73673e8b1",
+    "ATTRIBUTION.txt": "217fcb788a1920ee0eee5e26a6e9c149c3b62c6cf594bda5ba4cdae6ddaadbe3",
+    "task_validation.json": "41b65287c4239ce27f4ff38d2cdbabda4a5fc1b254a7d3c6d952e9d044950d98",
+    "source_aligned_reconstruction.png": "6d24dd06e33b890c059abbd0ca30821db6974189e922e972f5c8ba59008b2b73",
+    "scene_validation.json": "aa4bb46d78275774c252df9a1f7ad7ca2f78a23aee1dc8f51bc5ff6f583863e2"
+  }
+}
