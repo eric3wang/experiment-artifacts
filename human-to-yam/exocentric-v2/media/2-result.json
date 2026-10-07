@@ -1,0 +1,85 @@
+{
+  "episode": 2,
+  "title": "Stack two bowls",
+  "kind": "rigid",
+  "outcome": "success",
+  "checks": {
+    "lifted": true,
+    "placed_at_goal": true,
+    "settled_after_release": true,
+    "finite_physics": true,
+    "upright_after_release": true,
+    "resting_at_goal_height": true,
+    "rendered_all_frames": true
+  },
+  "metrics": {
+    "initial_position_m": [
+      -0.10000000149011612,
+      0.3400000035762787,
+      0.0
+    ],
+    "final_position_m": [
+      0.14273440837860107,
+      0.29641902446746826,
+      0.014053390361368656
+    ],
+    "goal_error_m": 0.006977167354659063,
+    "maximum_height_m": 0.13823381066322327
+  },
+  "frames": 432,
+  "fps": 24,
+  "simulation_duration_s": 18.0,
+  "phases": [
+    {
+      "name": "ready",
+      "start_s": 0.0,
+      "duration_s": 0.5
+    },
+    {
+      "name": "approach",
+      "start_s": 0.5,
+      "duration_s": 2.5
+    },
+    {
+      "name": "grasp",
+      "start_s": 3.0,
+      "duration_s": 1.5
+    },
+    {
+      "name": "lift",
+      "start_s": 4.5,
+      "duration_s": 2.5
+    },
+    {
+      "name": "transfer",
+      "start_s": 7.0,
+      "duration_s": 3.0
+    },
+    {
+      "name": "lower",
+      "start_s": 10.0,
+      "duration_s": 2.5
+    },
+    {
+      "name": "release",
+      "start_s": 12.5,
+      "duration_s": 1.5
+    },
+    {
+      "name": "retreat",
+      "start_s": 14.0,
+      "duration_s": 2.0
+    },
+    {
+      "name": "settle",
+      "start_s": 16.0,
+      "duration_s": 2.0
+    }
+  ],
+  "method": "Manually inspected human video; hand-authored approximate geometry and task-space waypoints, URDF IK, actual Isaac PhysX stepping. No learned video-to-policy model or automatic reconstruction.",
+  "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+  "source_member": "https://h2rbench.github.io/static/videos/human/stack_bowls/episode_000000_front.mp4",
+  "scope": "Selected human action; manually reconstructed geometry scaled for YAM",
+  "object_pose_teleports_during_rollout": 0,
+  "grasp_attachment_constraints": 0
+}
