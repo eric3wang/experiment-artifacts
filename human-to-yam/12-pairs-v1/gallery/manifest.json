@@ -1,0 +1,3086 @@
+{
+  "entries": [
+    {
+      "episode": 1,
+      "title": "White block \u2192 blue plate",
+      "source_member": "test/basic_pick_place/102.mp4",
+      "source_sha256": "f4896ee587494723d5005ffadbf0f55f8e4d99c8df79a200037e6006df0880fc",
+      "source_start_s": 0,
+      "source_end_s": 3.333333,
+      "duration_s": 3.333333,
+      "source_page": "https://github.com/apple-aiml-research/ml-egodex",
+      "source_credit": "EgoDex / Apple AIML Research",
+      "source_license": "CC BY-NC-ND 4.0 (dataset; distinct from code license)",
+      "source_actor": "human",
+      "visually_checked": true,
+      "selection_note": "Visible human hands; dataset-hosted source because YouTube downloader was unavailable. Manual task/geometry reconstruction.",
+      "difficulty": "easy",
+      "scope": "Selected action",
+      "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+      "validation": {
+        "episode": 1,
+        "title": "White block \u2192 blue plate",
+        "kind": "rigid",
+        "outcome": "success",
+        "checks": {
+          "lifted": true,
+          "placed_at_goal": true,
+          "settled_after_release": true,
+          "finite_physics": true,
+          "resting_at_goal_height": true,
+          "rendered_all_frames": true
+        },
+        "metrics": {
+          "initial_position_m": [
+            0.13999968767166138,
+            0.29000023007392883,
+            0.02399998903274536
+          ],
+          "final_position_m": [
+            -0.11887221783399582,
+            0.35010087490081787,
+            0.035999998450279236
+          ],
+          "goal_error_m": 0.0011322845753484816,
+          "maximum_height_m": 0.15859292447566986
+        },
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.0,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.0,
+            "duration_s": 2.5
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.5
+          },
+          {
+            "name": "retreat",
+            "start_s": 14.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 16.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manually inspected human video; hand-authored approximate geometry and task-space waypoints, URDF IK, actual Isaac PhysX stepping. No learned video-to-policy model or automatic reconstruction.",
+        "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+        "source_member": "test/basic_pick_place/102.mp4",
+        "scope": "Selected action",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 0
+      },
+      "source_url": "human/01.mp4",
+      "source_playback_encoding": "H.264 at 960px wide; original bytes retained in human/original and verified by source_sha256",
+      "sim_url": "media/01.mp4",
+      "sim_poster": "media/01.png",
+      "sim_sha256": "47a48a3e4246a0b43bfed79fd2419627d4fc0516159743fd45d33e9fbb48af0d"
+    },
+    {
+      "episode": 2,
+      "title": "Toy block \u2192 red plate",
+      "source_member": "test/basic_pick_place/259.mp4",
+      "source_sha256": "16a95b429c5086010bd8133c998e695b4bb6f9db768a4593fa8bad3732488741",
+      "source_start_s": 0,
+      "source_end_s": 1.166667,
+      "duration_s": 1.166667,
+      "source_page": "https://github.com/apple-aiml-research/ml-egodex",
+      "source_credit": "EgoDex / Apple AIML Research",
+      "source_license": "CC BY-NC-ND 4.0 (dataset; distinct from code license)",
+      "source_actor": "human",
+      "visually_checked": true,
+      "selection_note": "Visible human hands; dataset-hosted source because YouTube downloader was unavailable. Manual task/geometry reconstruction.",
+      "difficulty": "easy",
+      "scope": "Selected action",
+      "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+      "validation": {
+        "episode": 2,
+        "title": "Toy block \u2192 red plate",
+        "kind": "rigid",
+        "outcome": "success",
+        "checks": {
+          "lifted": true,
+          "placed_at_goal": true,
+          "settled_after_release": true,
+          "finite_physics": true,
+          "resting_at_goal_height": true,
+          "rendered_all_frames": true
+        },
+        "metrics": {
+          "initial_position_m": [
+            0.19000159204006195,
+            0.39000117778778076,
+            0.022499993443489075
+          ],
+          "final_position_m": [
+            -0.09872637689113617,
+            0.31011635065078735,
+            0.03449999541044235
+          ],
+          "goal_error_m": 0.001278926619228259,
+          "maximum_height_m": 0.143171489238739
+        },
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.0,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.0,
+            "duration_s": 2.5
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.5
+          },
+          {
+            "name": "retreat",
+            "start_s": 14.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 16.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manually inspected human video; hand-authored approximate geometry and task-space waypoints, URDF IK, actual Isaac PhysX stepping. No learned video-to-policy model or automatic reconstruction.",
+        "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+        "source_member": "test/basic_pick_place/259.mp4",
+        "scope": "Selected action",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 0
+      },
+      "source_url": "human/02.mp4",
+      "source_playback_encoding": "H.264 at 960px wide; original bytes retained in human/original and verified by source_sha256",
+      "sim_url": "media/02.mp4",
+      "sim_poster": "media/02.png",
+      "sim_sha256": "cbcca4fb98a9f8b2db999c11e2f50c8133d13757f8017ea369bdeeca43dc34a8"
+    },
+    {
+      "episode": 3,
+      "title": "Lift creamer from tray",
+      "source_member": "test/vertical_pick_place/49.mp4",
+      "source_sha256": "7098e3de8b61e2a4a8f028a76bd6050bb6cff0e748d56a0fa12e9a748e18b4e3",
+      "source_start_s": 0,
+      "source_end_s": 1.066667,
+      "duration_s": 1.066667,
+      "source_page": "https://github.com/apple-aiml-research/ml-egodex",
+      "source_credit": "EgoDex / Apple AIML Research",
+      "source_license": "CC BY-NC-ND 4.0 (dataset; distinct from code license)",
+      "source_actor": "human",
+      "visually_checked": true,
+      "selection_note": "Visible human hands; dataset-hosted source because YouTube downloader was unavailable. Manual task/geometry reconstruction.",
+      "difficulty": "easy",
+      "scope": "Selected action",
+      "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+      "validation": {
+        "episode": 3,
+        "title": "Lift creamer from tray",
+        "kind": "rigid",
+        "outcome": "success",
+        "checks": {
+          "lifted": true,
+          "placed_at_goal": true,
+          "settled_after_release": true,
+          "finite_physics": true,
+          "resting_at_goal_height": true,
+          "rendered_all_frames": true
+        },
+        "metrics": {
+          "initial_position_m": [
+            0.020000005140900612,
+            0.39999985694885254,
+            0.044999994337558746
+          ],
+          "final_position_m": [
+            0.18090757727622986,
+            0.26655516028404236,
+            0.025000005960464478
+          ],
+          "goal_error_m": 0.0035623892517477745,
+          "maximum_height_m": 0.14888069033622742
+        },
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.0,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.0,
+            "duration_s": 2.5
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.5
+          },
+          {
+            "name": "retreat",
+            "start_s": 14.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 16.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manually inspected human video; hand-authored approximate geometry and task-space waypoints, URDF IK, actual Isaac PhysX stepping. No learned video-to-policy model or automatic reconstruction.",
+        "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+        "source_member": "test/vertical_pick_place/49.mp4",
+        "scope": "Selected action",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 0
+      },
+      "source_url": "human/03.mp4",
+      "source_playback_encoding": "H.264 at 960px wide; original bytes retained in human/original and verified by source_sha256",
+      "sim_url": "media/03.mp4",
+      "sim_poster": "media/03.png",
+      "sim_sha256": "385907324b85cb7dae834b8046f48da657d16d809d117ac884e597cc69b984df"
+    },
+    {
+      "episode": 4,
+      "title": "Yellow toy \u2192 block stack",
+      "source_member": "test/stack/1.mp4",
+      "source_sha256": "57bce59f26940b9f9b9bc5e93d90e4688ed6b60808e895c13ebb8d41cfb109e5",
+      "source_start_s": 0,
+      "source_end_s": 1.366667,
+      "duration_s": 1.366667,
+      "source_page": "https://github.com/apple-aiml-research/ml-egodex",
+      "source_credit": "EgoDex / Apple AIML Research",
+      "source_license": "CC BY-NC-ND 4.0 (dataset; distinct from code license)",
+      "source_actor": "human",
+      "visually_checked": true,
+      "selection_note": "Visible human hands; dataset-hosted source because YouTube downloader was unavailable. Manual task/geometry reconstruction.",
+      "difficulty": "easy",
+      "scope": "Selected action",
+      "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+      "validation": {
+        "episode": 4,
+        "title": "Yellow toy \u2192 block stack",
+        "kind": "rigid",
+        "outcome": "success",
+        "checks": {
+          "lifted": true,
+          "placed_at_goal": true,
+          "settled_after_release": true,
+          "finite_physics": true,
+          "resting_at_goal_height": true,
+          "rendered_all_frames": true
+        },
+        "metrics": {
+          "initial_position_m": [
+            0.10000011324882507,
+            0.2300000935792923,
+            0.024999991059303284
+          ],
+          "final_position_m": [
+            0.13118110597133636,
+            0.4195009171962738,
+            0.09000000357627869
+          ],
+          "goal_error_m": 0.0012822226641662487,
+          "maximum_height_m": 0.15767958760261536
+        },
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.0,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.0,
+            "duration_s": 2.5
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.5
+          },
+          {
+            "name": "retreat",
+            "start_s": 14.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 16.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manually inspected human video; hand-authored approximate geometry and task-space waypoints, URDF IK, actual Isaac PhysX stepping. No learned video-to-policy model or automatic reconstruction.",
+        "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+        "source_member": "test/stack/1.mp4",
+        "scope": "Selected action",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 0
+      },
+      "source_url": "human/04.mp4",
+      "source_playback_encoding": "H.264 at 960px wide; original bytes retained in human/original and verified by source_sha256",
+      "sim_url": "media/04.mp4",
+      "sim_poster": "media/04.png",
+      "sim_sha256": "c96d368bad5245f0ac73edbc7604fdbafc6326d51bbb1ac2de350451c7133352"
+    },
+    {
+      "episode": 5,
+      "title": "Stack the last paper cup",
+      "source_member": "test/stack_unstack_cups/11.mp4",
+      "source_sha256": "0dce6d40c28e3304aa47f7660fac3deb44b2a7567dcdb9444a795480d706f271",
+      "source_start_s": 1.1,
+      "source_end_s": 2.55,
+      "duration_s": 2.633333,
+      "source_page": "https://github.com/apple-aiml-research/ml-egodex",
+      "source_credit": "EgoDex / Apple AIML Research",
+      "source_license": "CC BY-NC-ND 4.0 (dataset; distinct from code license)",
+      "source_actor": "human",
+      "visually_checked": true,
+      "selection_note": "Visible human hands; dataset-hosted source because YouTube downloader was unavailable. Manual task/geometry reconstruction.",
+      "difficulty": "medium",
+      "scope": "Final cup placement, simplified nesting",
+      "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+      "validation": {
+        "episode": 5,
+        "title": "Stack the last paper cup",
+        "kind": "rigid",
+        "outcome": "failed_attempt",
+        "checks": {
+          "lifted": true,
+          "placed_at_goal": false,
+          "settled_after_release": false,
+          "finite_physics": true,
+          "resting_at_goal_height": false,
+          "rendered_all_frames": true
+        },
+        "metrics": {
+          "initial_position_m": [
+            0.18999995291233063,
+            0.30000004172325134,
+            3.725290298461914e-09
+          ],
+          "final_position_m": [
+            0.028551531955599785,
+            0.37677016854286194,
+            0.1053241491317749
+          ],
+          "goal_error_m": 0.06888503259459472,
+          "maximum_height_m": 0.10532434284687042
+        },
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.0,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.0,
+            "duration_s": 2.5
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.5
+          },
+          {
+            "name": "retreat",
+            "start_s": 14.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 16.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manually inspected human video; hand-authored approximate geometry and task-space waypoints, URDF IK, actual Isaac PhysX stepping. No learned video-to-policy model or automatic reconstruction.",
+        "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+        "source_member": "test/stack_unstack_cups/11.mp4",
+        "scope": "Final cup placement, simplified nesting",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 0
+      },
+      "source_url": "human/05.mp4",
+      "source_playback_encoding": "H.264 at 960px wide; original bytes retained in human/original and verified by source_sha256",
+      "sim_url": "media/05.mp4",
+      "sim_poster": "media/05.png",
+      "sim_sha256": "67d94e7d592d3f122bdd2ee93c9429b6eeafb00365f6514b662d220db66fae90"
+    },
+    {
+      "episode": 6,
+      "title": "Take book out of shelf",
+      "source_member": "test/insert_remove_bookshelf/15.mp4",
+      "source_sha256": "dc0c422026f1ad6b2c2a41e33c8ff3393941fb39a28976228b623bb2bdd48bed",
+      "source_start_s": 0.2,
+      "source_end_s": 2.3,
+      "duration_s": 3.233333,
+      "source_page": "https://github.com/apple-aiml-research/ml-egodex",
+      "source_credit": "EgoDex / Apple AIML Research",
+      "source_license": "CC BY-NC-ND 4.0 (dataset; distinct from code license)",
+      "source_actor": "human",
+      "visually_checked": true,
+      "selection_note": "Visible human hands; dataset-hosted source because YouTube downloader was unavailable. Manual task/geometry reconstruction.",
+      "difficulty": "medium",
+      "scope": "Extract book; upright placement attempt",
+      "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+      "validation": {
+        "episode": 6,
+        "title": "Take book out of shelf",
+        "kind": "rigid",
+        "outcome": "failed_attempt",
+        "checks": {
+          "lifted": false,
+          "placed_at_goal": false,
+          "settled_after_release": true,
+          "finite_physics": true,
+          "resting_at_goal_height": true,
+          "rendered_all_frames": true
+        },
+        "metrics": {
+          "initial_position_m": [
+            0.05158412083983421,
+            0.423611581325531,
+            0.09354707598686218
+          ],
+          "final_position_m": [
+            0.030237950384616852,
+            0.4388870298862457,
+            0.09048955887556076
+          ],
+          "goal_error_m": 0.25970167955774764,
+          "maximum_height_m": 0.11231628805398941
+        },
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.0,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.0,
+            "duration_s": 2.5
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.5
+          },
+          {
+            "name": "retreat",
+            "start_s": 14.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 16.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manually inspected human video; hand-authored approximate geometry and task-space waypoints, URDF IK, actual Isaac PhysX stepping. No learned video-to-policy model or automatic reconstruction.",
+        "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+        "source_member": "test/insert_remove_bookshelf/15.mp4",
+        "scope": "Extract book; upright placement attempt",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 0
+      },
+      "source_url": "human/06.mp4",
+      "source_playback_encoding": "H.264 at 960px wide; original bytes retained in human/original and verified by source_sha256",
+      "sim_url": "media/06.mp4",
+      "sim_poster": "media/06.png",
+      "sim_sha256": "4c7bbe87898a85584ea7944b203e9873fa97bcb4507ec2fe92784d93aa96ef6d"
+    },
+    {
+      "episode": 7,
+      "title": "Remove cup lid",
+      "source_member": "test/add_remove_lid/0.mp4",
+      "source_sha256": "1a0ec11f438e100ad27d702ed098fc63f392348e6a3fb8b882f84c7751497af9",
+      "source_start_s": 0,
+      "source_end_s": 3.133333,
+      "duration_s": 3.133333,
+      "source_page": "https://github.com/apple-aiml-research/ml-egodex",
+      "source_credit": "EgoDex / Apple AIML Research",
+      "source_license": "CC BY-NC-ND 4.0 (dataset; distinct from code license)",
+      "source_actor": "human",
+      "visually_checked": true,
+      "selection_note": "Visible human hands; dataset-hosted source because YouTube downloader was unavailable. Manual task/geometry reconstruction.",
+      "difficulty": "medium",
+      "scope": "Lift off unlatched lid",
+      "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+      "validation": {
+        "episode": 7,
+        "title": "Remove cup lid",
+        "kind": "rigid",
+        "outcome": "success",
+        "checks": {
+          "lifted": true,
+          "placed_at_goal": true,
+          "settled_after_release": true,
+          "finite_physics": true,
+          "resting_at_goal_height": true,
+          "rendered_all_frames": true
+        },
+        "metrics": {
+          "initial_position_m": [
+            0.020000139251351357,
+            0.40000003576278687,
+            0.09400000423192978
+          ],
+          "final_position_m": [
+            0.18114589154720306,
+            0.25014156103134155,
+            0.010000001639127731
+          ],
+          "goal_error_m": 0.0011546025132251926,
+          "maximum_height_m": 0.16043390333652496
+        },
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.0,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.0,
+            "duration_s": 2.5
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.5
+          },
+          {
+            "name": "retreat",
+            "start_s": 14.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 16.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manually inspected human video; hand-authored approximate geometry and task-space waypoints, URDF IK, actual Isaac PhysX stepping. No learned video-to-policy model or automatic reconstruction.",
+        "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+        "source_member": "test/add_remove_lid/0.mp4",
+        "scope": "Lift off unlatched lid",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 0
+      },
+      "source_url": "human/07.mp4",
+      "source_playback_encoding": "H.264 at 960px wide; original bytes retained in human/original and verified by source_sha256",
+      "sim_url": "media/07.mp4",
+      "sim_poster": "media/07.png",
+      "sim_sha256": "eaedbb218d30cb40c6e14ccf47cab5dd38c8f33a29c5a07ca5f362dbcfb8d88e"
+    },
+    {
+      "episode": 8,
+      "title": "Sweep beads into dustpan",
+      "source_member": "test/sweep_dustpan/0.mp4",
+      "source_sha256": "3bce89ba39b18c1ccb9bb1fc402bf55210fa95048219b0a6332fd4496af2cb0f",
+      "source_start_s": 0,
+      "source_end_s": 10.0,
+      "duration_s": 10.0,
+      "source_page": "https://github.com/apple-aiml-research/ml-egodex",
+      "source_credit": "EgoDex / Apple AIML Research",
+      "source_license": "CC BY-NC-ND 4.0 (dataset; distinct from code license)",
+      "source_actor": "human",
+      "visually_checked": true,
+      "selection_note": "Visible human hands; dataset-hosted source because YouTube downloader was unavailable. Manual task/geometry reconstruction.",
+      "difficulty": "medium",
+      "scope": "One brush stroke toward a fixed dustpan",
+      "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+      "validation": {
+        "episode": 8,
+        "title": "Sweep beads into dustpan",
+        "kind": "rigid",
+        "outcome": "failed_attempt",
+        "checks": {
+          "beads_in_pan": false,
+          "finite_physics": true,
+          "brush_released": true,
+          "rendered_all_frames": true
+        },
+        "metrics": {
+          "initial_position_m": [
+            0.14004169404506683,
+            0.23000146448612213,
+            0.024999994784593582
+          ],
+          "final_position_m": [
+            -0.10156304389238358,
+            0.40505921840667725,
+            0.03348883241415024
+          ],
+          "goal_error_m": 0.02888349292507686,
+          "maximum_height_m": 0.04416928067803383,
+          "beads_in_pan": 0
+        },
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.0,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.0,
+            "duration_s": 2.5
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.5
+          },
+          {
+            "name": "retreat",
+            "start_s": 14.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 16.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manually inspected human video; hand-authored approximate geometry and task-space waypoints, URDF IK, actual Isaac PhysX stepping. No learned video-to-policy model or automatic reconstruction.",
+        "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+        "source_member": "test/sweep_dustpan/0.mp4",
+        "scope": "One brush stroke toward a fixed dustpan",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 0
+      },
+      "source_url": "human/08.mp4",
+      "source_playback_encoding": "H.264 at 960px wide; original bytes retained in human/original and verified by source_sha256",
+      "sim_url": "media/08.mp4",
+      "sim_poster": "media/08.png",
+      "sim_sha256": "f431ff0451e00508e4a7127d988fb5a8b1095909b08eaf7a4755eb3850e54f7e"
+    },
+    {
+      "episode": 9,
+      "title": "Unplug phone cable",
+      "source_member": "test/charge_uncharge_device/2.mp4",
+      "source_sha256": "7aa1f19a1652e9d1753ff05972775856b2f1a71c1725089c0c73acad6bf94627",
+      "source_start_s": 0,
+      "source_end_s": 1.433333,
+      "duration_s": 1.433333,
+      "source_page": "https://github.com/apple-aiml-research/ml-egodex",
+      "source_credit": "EgoDex / Apple AIML Research",
+      "source_license": "CC BY-NC-ND 4.0 (dataset; distinct from code license)",
+      "source_actor": "human",
+      "visually_checked": true,
+      "selection_note": "Visible human hands; dataset-hosted source because YouTube downloader was unavailable. Manual task/geometry reconstruction.",
+      "difficulty": "hard",
+      "scope": "Connector motion attempt; electrical fit and retention unvalidated",
+      "grasp_model": "Idealized attachment at the cable connector; native PhysX jointed cable. No validated connector insertion model.",
+      "validation": {
+        "episode": 9,
+        "title": "Unplug phone cable",
+        "kind": "cable",
+        "outcome": "partial_attempt",
+        "checks": {
+          "finite_physics": true,
+          "cable_length_preserved": true,
+          "connector_moved": true,
+          "connector_reached_goal_xy": true,
+          "released": true,
+          "electrical_fit_validated": false,
+          "rendered_all_frames": true
+        },
+        "metrics": {
+          "goal_error_m": 0.01888848381367226,
+          "maximum_link_length_m": 0.006314171478152275,
+          "final_connector_m": [
+            -0.2065006047487259,
+            0.31080734729766846,
+            0.004000000189989805
+          ]
+        },
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.0,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.0,
+            "duration_s": 2.5
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.5
+          },
+          {
+            "name": "retreat",
+            "start_s": 14.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 16.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manually inspected human video; hand-authored approximate geometry and task-space waypoints, URDF IK, actual Isaac PhysX stepping. No learned video-to-policy model or automatic reconstruction.",
+        "grasp_model": "Idealized attachment at the cable connector; native PhysX jointed cable. No validated connector insertion model.",
+        "source_member": "test/charge_uncharge_device/2.mp4",
+        "scope": "Connector motion attempt; electrical fit and retention unvalidated",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 1
+      },
+      "source_url": "human/09.mp4",
+      "source_playback_encoding": "H.264 at 960px wide; original bytes retained in human/original and verified by source_sha256",
+      "sim_url": "media/09.mp4",
+      "sim_poster": "media/09.png",
+      "sim_sha256": "bc22b1efcd5155a008d9f6b9ca53946c0e4335ce0262c8cfa0610c1b2f90d4bb"
+    },
+    {
+      "episode": 10,
+      "title": "Insert plug into power strip",
+      "source_member": "test/insert_remove_plug_socket/40.mp4",
+      "source_sha256": "2824f6013f06fc2a7a59446b333b047e62c55731400a119c653b00d3f07fe9c9",
+      "source_start_s": 0,
+      "source_end_s": 0.566667,
+      "duration_s": 0.566667,
+      "source_page": "https://github.com/apple-aiml-research/ml-egodex",
+      "source_credit": "EgoDex / Apple AIML Research",
+      "source_license": "CC BY-NC-ND 4.0 (dataset; distinct from code license)",
+      "source_actor": "human",
+      "visually_checked": true,
+      "selection_note": "Visible human hands; dataset-hosted source because YouTube downloader was unavailable. Manual task/geometry reconstruction.",
+      "difficulty": "hard",
+      "scope": "Connector motion attempt; electrical fit and retention unvalidated",
+      "grasp_model": "Idealized attachment at the cable connector; native PhysX jointed cable. No validated connector insertion model.",
+      "validation": {
+        "episode": 10,
+        "title": "Insert plug into power strip",
+        "kind": "cable",
+        "outcome": "partial_attempt",
+        "checks": {
+          "finite_physics": true,
+          "cable_length_preserved": true,
+          "connector_moved": true,
+          "connector_reached_goal_xy": false,
+          "released": true,
+          "electrical_fit_validated": false,
+          "rendered_all_frames": true
+        },
+        "metrics": {
+          "goal_error_m": 0.06944021036187155,
+          "maximum_link_length_m": 0.010963007807731628,
+          "final_connector_m": [
+            0.11512837558984756,
+            0.3607308864593506,
+            0.003999999724328518
+          ]
+        },
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.0,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.0,
+            "duration_s": 2.5
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.5
+          },
+          {
+            "name": "retreat",
+            "start_s": 14.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 16.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manually inspected human video; hand-authored approximate geometry and task-space waypoints, URDF IK, actual Isaac PhysX stepping. No learned video-to-policy model or automatic reconstruction.",
+        "grasp_model": "Idealized attachment at the cable connector; native PhysX jointed cable. No validated connector insertion model.",
+        "source_member": "test/insert_remove_plug_socket/40.mp4",
+        "scope": "Connector motion attempt; electrical fit and retention unvalidated",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 1
+      },
+      "source_url": "human/10.mp4",
+      "source_playback_encoding": "H.264 at 960px wide; original bytes retained in human/original and verified by source_sha256",
+      "sim_url": "media/10.mp4",
+      "sim_poster": "media/10.png",
+      "sim_sha256": "762706a9ffcaf462900593d68efa11e4e81d9c184c329b985ba18fd5dcfab110"
+    },
+    {
+      "episode": 11,
+      "title": "Fold yellow cloth",
+      "source_member": "test/fold_stack_unstack_unfold_cloths/1.mp4",
+      "source_sha256": "3170773c5f3427c8f4bc919d19f76e0f8b8143cfb8ca0ce3869656c932aabe8c",
+      "source_start_s": 0,
+      "source_end_s": 3.0,
+      "duration_s": 7.266667,
+      "source_page": "https://github.com/apple-aiml-research/ml-egodex",
+      "source_credit": "EgoDex / Apple AIML Research",
+      "source_license": "CC BY-NC-ND 4.0 (dataset; distinct from code license)",
+      "source_actor": "human",
+      "visually_checked": true,
+      "selection_note": "Visible human hands; dataset-hosted source because YouTube downloader was unavailable. Manual task/geometry reconstruction.",
+      "difficulty": "hard",
+      "scope": "First half-fold only",
+      "grasp_model": "Idealized corner attachments; native PhysX particle cloth and self-collision. Robot-cloth collision disabled.",
+      "validation": {
+        "episode": 11,
+        "title": "Fold yellow cloth",
+        "kind": "cloth",
+        "outcome": "failed_attempt",
+        "checks": {
+          "cloth_lifted": true,
+          "corners_folded_to_far_edge": false,
+          "free_vertices_deformed": true,
+          "cloth_stayed_above_table": true,
+          "finite_physics": true,
+          "attachments_released": true,
+          "cloth_resting_after_release": false,
+          "rendered_all_frames": true
+        },
+        "metrics": {
+          "goal_error_m": 0.060158806734981016,
+          "max_height_m": 0.18541903793811798,
+          "final_corner_positions_m": [
+            [
+              -0.15960852056741714,
+              0.41740256547927856,
+              0.015911022201180458
+            ],
+            [
+              0.15445750206708908,
+              0.4661434292793274,
+              0.06117837131023407
+            ]
+          ]
+        },
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.0,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.0,
+            "duration_s": 2.5
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.5
+          },
+          {
+            "name": "retreat",
+            "start_s": 14.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 16.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manually inspected human video; hand-authored approximate geometry and task-space waypoints, URDF IK, actual Isaac PhysX stepping. No learned video-to-policy model or automatic reconstruction.",
+        "grasp_model": "Idealized corner attachments; native PhysX particle cloth and self-collision. Robot-cloth collision disabled.",
+        "source_member": "test/fold_stack_unstack_unfold_cloths/1.mp4",
+        "scope": "First half-fold only",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 2
+      },
+      "source_url": "human/11.mp4",
+      "source_playback_encoding": "H.264 at 960px wide; original bytes retained in human/original and verified by source_sha256",
+      "sim_url": "media/11.mp4",
+      "sim_poster": "media/11.png",
+      "sim_sha256": "bcd60060b847fbbbb83bf956d5b7038cb9c931897fe31f2f7d8b60e5351cdba5"
+    },
+    {
+      "episode": 12,
+      "title": "Fold shirt: partial attempt",
+      "source_member": "test/basic_fold/38.mp4",
+      "source_sha256": "cbdadb0013eb545836ac4d64ab97bb0a1a5ad4e81dfe3723e2ff9c723e8e6a95",
+      "source_start_s": 2.0,
+      "source_end_s": 6.25,
+      "duration_s": 6.333333,
+      "source_page": "https://github.com/apple-aiml-research/ml-egodex",
+      "source_credit": "EgoDex / Apple AIML Research",
+      "source_license": "CC BY-NC-ND 4.0 (dataset; distinct from code license)",
+      "source_actor": "human",
+      "visually_checked": true,
+      "selection_note": "Visible human hands; dataset-hosted source because YouTube downloader was unavailable. Manual task/geometry reconstruction.",
+      "difficulty": "hard",
+      "scope": "One fold on a shirt-shaped cloth; full folding sequence not reproduced",
+      "grasp_model": "Idealized corner attachments; native PhysX particle cloth and self-collision. Robot-cloth collision disabled.",
+      "validation": {
+        "episode": 12,
+        "title": "Fold shirt: partial attempt",
+        "kind": "cloth",
+        "outcome": "partial_attempt",
+        "checks": {
+          "cloth_lifted": true,
+          "corners_folded_to_far_edge": true,
+          "free_vertices_deformed": true,
+          "cloth_stayed_above_table": true,
+          "finite_physics": true,
+          "attachments_released": true,
+          "cloth_resting_after_release": true,
+          "rendered_all_frames": true
+        },
+        "metrics": {
+          "goal_error_m": 0.028454360291597612,
+          "max_height_m": 0.18074186146259308,
+          "final_corner_positions_m": [
+            [
+              -0.13229164481163025,
+              0.496597558259964,
+              0.010673352517187595
+            ],
+            [
+              0.10053134709596634,
+              0.49554604291915894,
+              0.01065733376890421
+            ]
+          ]
+        },
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.0,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.0,
+            "duration_s": 2.5
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.5
+          },
+          {
+            "name": "retreat",
+            "start_s": 14.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 16.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manually inspected human video; hand-authored approximate geometry and task-space waypoints, URDF IK, actual Isaac PhysX stepping. No learned video-to-policy model or automatic reconstruction.",
+        "grasp_model": "Idealized corner attachments; native PhysX particle cloth and self-collision. Robot-cloth collision disabled.",
+        "source_member": "test/basic_fold/38.mp4",
+        "scope": "One fold on a shirt-shaped cloth; full folding sequence not reproduced",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 2
+      },
+      "source_url": "human/12.mp4",
+      "source_playback_encoding": "H.264 at 960px wide; original bytes retained in human/original and verified by source_sha256",
+      "sim_url": "media/12.mp4",
+      "sim_poster": "media/12.png",
+      "sim_sha256": "23fc527effafdb8446e94224685556496f1235887604658e0c044eeee54740a4"
+    }
+  ],
+  "scene_spec": {
+    "method": "Manually inspected human video; hand-authored approximate geometry and task-space waypoints, URDF IK, actual Isaac PhysX stepping. No learned video-to-policy model or automatic reconstruction.",
+    "source_project": "https://github.com/apple-aiml-research/ml-egodex",
+    "robot_mounts": {
+      "left": [
+        -0.16,
+        -0.025,
+        0.04
+      ],
+      "right": [
+        0.16,
+        -0.025,
+        0.04
+      ]
+    },
+    "episodes": [
+      {
+        "episode": 1,
+        "title": "White block \u2192 blue plate",
+        "source_member": "test/basic_pick_place/102.mp4",
+        "kind": "rigid",
+        "shape": "cube",
+        "active_arms": [
+          "right"
+        ],
+        "pick": [
+          0.14,
+          0.29,
+          0.025
+        ],
+        "goal": [
+          -0.12,
+          0.35,
+          0.032
+        ],
+        "size_m": [
+          0.048,
+          0.048,
+          0.048
+        ],
+        "color": [
+          0.88,
+          0.88,
+          0.82
+        ],
+        "table_color": [
+          0.42,
+          0.04,
+          0.04
+        ],
+        "background_color": [
+          0.67,
+          0.61,
+          0.52
+        ],
+        "props": [],
+        "difficulty": "easy",
+        "scope": "Selected action",
+        "plate": [
+          -0.12,
+          0.35,
+          0.006
+        ],
+        "plate_color": [
+          0.03,
+          0.14,
+          0.54
+        ],
+        "tool_targets_m": {
+          "right": {
+            "hover": [
+              0.14,
+              0.29,
+              0.145
+            ],
+            "pick": [
+              0.14,
+              0.29,
+              0.025
+            ],
+            "lift": [
+              0.14,
+              0.29,
+              0.145
+            ],
+            "transfer": [
+              -0.12,
+              0.35,
+              0.145
+            ],
+            "place": [
+              -0.12,
+              0.35,
+              0.037
+            ]
+          }
+        },
+        "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+        "ik_seed_solutions": {
+          "right": {
+            "hover": [
+              0.06339428576830884,
+              1.7403620353332745,
+              1.404434505375699,
+              -1.2348724626566712,
+              -2.438498857150658e-06,
+              0.06340424770244238
+            ],
+            "pick": [
+              0.06339535204734065,
+              1.888159692048156,
+              1.0845543948397867,
+              -0.7671946954194439,
+              -2.0582208636796665e-06,
+              0.06340521952404517
+            ],
+            "lift": [
+              0.0633942857683478,
+              1.740362020540187,
+              1.4044344743411592,
+              -1.2348724429810867,
+              -2.4384989816985405e-06,
+              0.0634042477025084
+            ],
+            "transfer": [
+              0.6413531787118398,
+              2.465548845002325,
+              2.5103366175875834,
+              -1.6155870426586318,
+              -2.7812568287591076e-06,
+              0.6413621854998456
+            ],
+            "place": [
+              0.641353741602091,
+              2.4288006689083788,
+              2.011097908262982,
+              -1.1530964826005214,
+              -2.843658776354424e-06,
+              0.6413628233178963
+            ]
+          }
+        },
+        "ik_max_error": {
+          "right": 2.7307048922437296e-08
+        }
+      },
+      {
+        "episode": 2,
+        "title": "Toy block \u2192 red plate",
+        "source_member": "test/basic_pick_place/259.mp4",
+        "kind": "rigid",
+        "shape": "toy",
+        "active_arms": [
+          "right"
+        ],
+        "pick": [
+          0.19,
+          0.39,
+          0.024
+        ],
+        "goal": [
+          -0.1,
+          0.31,
+          0.031
+        ],
+        "size_m": [
+          0.046,
+          0.045,
+          0.045
+        ],
+        "color": [
+          0.68,
+          0.58,
+          0.35
+        ],
+        "table_color": [
+          0.11,
+          0.14,
+          0.24
+        ],
+        "background_color": [
+          0.67,
+          0.61,
+          0.52
+        ],
+        "props": [],
+        "difficulty": "easy",
+        "scope": "Selected action",
+        "plate": [
+          -0.1,
+          0.31,
+          0.006
+        ],
+        "plate_color": [
+          0.55,
+          0.025,
+          0.015
+        ],
+        "tool_targets_m": {
+          "right": {
+            "hover": [
+              0.19,
+              0.39,
+              0.145
+            ],
+            "pick": [
+              0.19,
+              0.39,
+              0.024
+            ],
+            "lift": [
+              0.19,
+              0.39,
+              0.145
+            ],
+            "transfer": [
+              -0.1,
+              0.31,
+              0.145
+            ],
+            "place": [
+              -0.1,
+              0.31,
+              0.036
+            ]
+          }
+        },
+        "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+        "ik_seed_solutions": {
+          "right": {
+            "hover": [
+              -0.0721746290166,
+              2.14904681809786,
+              1.9684489609963374,
+              -1.3902021333317276,
+              -9.383705845291771e-07,
+              -0.07216506044069972
+            ],
+            "pick": [
+              -0.07217421930184978,
+              2.2305571054376694,
+              1.6106452380316079,
+              -0.9508881230650438,
+              -7.622577781061787e-07,
+              -0.07216477619037612
+            ],
+            "lift": [
+              -0.07217462901659745,
+              2.1490468179265374,
+              1.9684489606507067,
+              -1.390202133131354,
+              -9.383705861401591e-07,
+              -0.07216506044068884
+            ],
+            "transfer": [
+              0.6599969245238463,
+              2.1874404649705967,
+              2.0295045438803525,
+              -1.4128633072933483,
+              -3.3711184170236915e-06,
+              0.660006435789045
+            ],
+            "place": [
+              0.6599978920614205,
+              2.2440286448690787,
+              1.6840458331558263,
+              -1.0108164169072282,
+              -3.2511371420398757e-06,
+              0.66000731306947
+            ]
+          }
+        },
+        "ik_max_error": {
+          "right": 3.153428860316863e-10
+        }
+      },
+      {
+        "episode": 3,
+        "title": "Lift creamer from tray",
+        "source_member": "test/vertical_pick_place/49.mp4",
+        "kind": "rigid",
+        "shape": "creamer",
+        "active_arms": [
+          "right"
+        ],
+        "pick": [
+          0.02,
+          0.4,
+          0.045
+        ],
+        "goal": [
+          0.18,
+          0.27,
+          0.027
+        ],
+        "size_m": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "color": [
+          0.85,
+          0.83,
+          0.74
+        ],
+        "table_color": [
+          0.65,
+          0.43,
+          0.19
+        ],
+        "background_color": [
+          0.67,
+          0.61,
+          0.52
+        ],
+        "props": [
+          {
+            "name": "TrayBase",
+            "pos": [
+              0.02,
+              0.4,
+              0.01
+            ],
+            "size": [
+              0.19,
+              0.1,
+              0.02
+            ],
+            "color": [
+              0.7,
+              0.7,
+              0.65
+            ]
+          },
+          {
+            "name": "TrayBack",
+            "pos": [
+              0.02,
+              0.45,
+              0.065
+            ],
+            "size": [
+              0.19,
+              0.006,
+              0.11
+            ],
+            "color": [
+              0.66,
+              0.67,
+              0.64
+            ]
+          }
+        ],
+        "difficulty": "easy",
+        "scope": "Selected action",
+        "tool_targets_m": {
+          "right": {
+            "hover": [
+              0.02,
+              0.4,
+              0.145
+            ],
+            "pick": [
+              0.02,
+              0.4,
+              0.045
+            ],
+            "lift": [
+              0.02,
+              0.4,
+              0.145
+            ],
+            "transfer": [
+              0.18,
+              0.27,
+              0.145
+            ],
+            "place": [
+              0.18,
+              0.27,
+              0.032
+            ]
+          }
+        },
+        "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+        "ik_seed_solutions": {
+          "right": {
+            "hover": [
+              0.31820582679559617,
+              2.314387117518461,
+              2.2406252409770215,
+              -1.497037938173631,
+              -2.0064943139384547e-06,
+              0.31821512635708676
+            ],
+            "pick": [
+              0.3182063035166639,
+              2.3285520851909802,
+              1.865854797200984,
+              -1.108102527597638,
+              -1.9790143062017616e-06,
+              0.31821557743737144
+            ],
+            "lift": [
+              0.3182058267940131,
+              2.314387074850179,
+              2.2406251547726144,
+              -1.497037890316921,
+              -2.006498074274444e-06,
+              0.3182151263541673
+            ],
+            "transfer": [
+              -0.06770566655998275,
+              1.6650980516414133,
+              1.3187574899588392,
+              -1.2244594298951814,
+              -2.155225324943441e-06,
+              -0.06769567835843746
+            ],
+            "place": [
+              -0.06770472380794665,
+              1.806755503340048,
+              1.0084478851568246,
+              -0.7724923734193957,
+              -1.7847510826251915e-06,
+              -0.06769479734436515
+            ]
+          }
+        },
+        "ik_max_error": {
+          "right": 7.74867916184004e-09
+        }
+      },
+      {
+        "episode": 4,
+        "title": "Yellow toy \u2192 block stack",
+        "source_member": "test/stack/1.mp4",
+        "kind": "rigid",
+        "shape": "duck",
+        "active_arms": [
+          "right"
+        ],
+        "pick": [
+          0.1,
+          0.23,
+          0.03
+        ],
+        "goal": [
+          0.13,
+          0.42,
+          0.095
+        ],
+        "size_m": [
+          0.055,
+          0.05,
+          0.05
+        ],
+        "color": [
+          0.91,
+          0.68,
+          0.015
+        ],
+        "table_color": [
+          0.11,
+          0.14,
+          0.24
+        ],
+        "background_color": [
+          0.67,
+          0.61,
+          0.52
+        ],
+        "props": [
+          {
+            "name": "StackBase",
+            "pos": [
+              0.13,
+              0.42,
+              0.0325
+            ],
+            "size": [
+              0.09,
+              0.07,
+              0.065
+            ],
+            "color": [
+              0.43,
+              0.32,
+              0.13
+            ]
+          }
+        ],
+        "difficulty": "easy",
+        "scope": "Selected action",
+        "tool_targets_m": {
+          "right": {
+            "hover": [
+              0.1,
+              0.23,
+              0.145
+            ],
+            "pick": [
+              0.1,
+              0.23,
+              0.03
+            ],
+            "lift": [
+              0.1,
+              0.23,
+              0.145
+            ],
+            "transfer": [
+              0.13,
+              0.42,
+              0.145
+            ],
+            "place": [
+              0.13,
+              0.42,
+              0.1
+            ]
+          }
+        },
+        "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+        "ik_seed_solutions": {
+          "right": {
+            "hover": [
+              0.23107659940881323,
+              1.5376727779425392,
+              1.1872326931779955,
+              -1.2203598175865105,
+              -3.5827324561975637e-06,
+              0.23108659794055317
+            ],
+            "pick": [
+              0.23107826469675913,
+              1.6950703983308042,
+              0.8623656922562672,
+              -0.7380951964540153,
+              -3.1659391038667736e-06,
+              0.23108824422232793
+            ],
+            "lift": [
+              0.23107659941008238,
+              1.5376727758811457,
+              1.1872326885153939,
+              -1.2203598144422572,
+              -3.5827376316602353e-06,
+              0.23108659794337927
+            ],
+            "transfer": [
+              0.06730309496277709,
+              2.305611361194918,
+              2.2255778454434294,
+              -1.4907664517154753,
+              -1.121528862831594e-06,
+              0.06731241021324148
+            ],
+            "place": [
+              0.06730317330512188,
+              2.2898228010723547,
+              2.019717375516888,
+              -1.3006945661243856,
+              -1.1528354364114585e-06,
+              0.06731251639811037
+            ]
+          }
+        },
+        "ik_max_error": {
+          "right": 3.597494999207236e-08
+        }
+      },
+      {
+        "episode": 5,
+        "title": "Stack the last paper cup",
+        "source_member": "test/stack_unstack_cups/11.mp4",
+        "kind": "rigid",
+        "shape": "cup",
+        "active_arms": [
+          "right"
+        ],
+        "pick": [
+          0.19,
+          0.3,
+          0.065
+        ],
+        "goal": [
+          -0.04,
+          0.37,
+          0.1
+        ],
+        "size_m": [
+          0.063,
+          0.063,
+          0.085
+        ],
+        "color": [
+          0.82,
+          0.79,
+          0.68
+        ],
+        "table_color": [
+          0.65,
+          0.43,
+          0.19
+        ],
+        "background_color": [
+          0.67,
+          0.61,
+          0.52
+        ],
+        "props": [],
+        "difficulty": "medium",
+        "scope": "Final cup placement, simplified nesting",
+        "tool_targets_m": {
+          "right": {
+            "hover": [
+              0.19,
+              0.3,
+              0.145
+            ],
+            "pick": [
+              0.19,
+              0.3,
+              0.065
+            ],
+            "lift": [
+              0.19,
+              0.3,
+              0.145
+            ],
+            "transfer": [
+              -0.04,
+              0.37,
+              0.145
+            ],
+            "place": [
+              -0.04,
+              0.37,
+              0.10500000000000001
+            ]
+          }
+        },
+        "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+        "source_window_s": [
+          1.1,
+          2.55
+        ],
+        "cups": [
+          [
+            -0.04,
+            0.37,
+            0
+          ],
+          [
+            -0.04,
+            0.37,
+            0.012
+          ]
+        ],
+        "ik_seed_solutions": {
+          "right": {
+            "hover": [
+              -0.09205899133957508,
+              1.7810999371698992,
+              1.4532553899819656,
+              -1.2429554372527885,
+              -1.7619701542611135e-06,
+              -0.09204904981156851
+            ],
+            "pick": [
+              -0.09205846826689375,
+              1.8537549639512256,
+              1.2171192192454843,
+              -0.9341642397357647,
+              -1.575050335422629e-06,
+              -0.09204857379691507
+            ],
+            "lift": [
+              -0.09205899133955416,
+              1.7810999368281035,
+              1.4532553892661333,
+              -1.2429554368013052,
+              -1.7619701673237958e-06,
+              -0.09204904981155301
+            ],
+            "transfer": [
+              0.46868657122470275,
+              2.2864710732682196,
+              2.1929924512890553,
+              -1.4773209782814087,
+              -2.5717465624023563e-06,
+              0.4686959201626209
+            ],
+            "place": [
+              0.4686867743871155,
+              2.273238868782981,
+              2.011636014405768,
+              -1.3091968132394274,
+              -2.598397099050148e-06,
+              0.46869614618620964
+            ]
+          }
+        },
+        "ik_max_error": {
+          "right": 3.985051314884352e-08
+        }
+      },
+      {
+        "episode": 6,
+        "title": "Take book out of shelf",
+        "source_member": "test/insert_remove_bookshelf/15.mp4",
+        "kind": "rigid",
+        "shape": "book",
+        "active_arms": [
+          "right"
+        ],
+        "pick": [
+          0.08,
+          0.43,
+          0.1
+        ],
+        "goal": [
+          0.17,
+          0.22,
+          0.095
+        ],
+        "size_m": [
+          0.055,
+          0.11,
+          0.18
+        ],
+        "color": [
+          0.6,
+          0.1,
+          0.09
+        ],
+        "table_color": [
+          0.65,
+          0.43,
+          0.19
+        ],
+        "background_color": [
+          0.67,
+          0.61,
+          0.52
+        ],
+        "props": [
+          {
+            "name": "ShelfBack",
+            "pos": [
+              0.08,
+              0.51,
+              0.11
+            ],
+            "size": [
+              0.25,
+              0.015,
+              0.22
+            ],
+            "color": [
+              0.77,
+              0.75,
+              0.66
+            ]
+          },
+          {
+            "name": "ShelfLeft",
+            "pos": [
+              -0.05,
+              0.43,
+              0.11
+            ],
+            "size": [
+              0.015,
+              0.17,
+              0.22
+            ],
+            "color": [
+              0.8,
+              0.79,
+              0.71
+            ]
+          },
+          {
+            "name": "ShelfRight",
+            "pos": [
+              0.21,
+              0.43,
+              0.11
+            ],
+            "size": [
+              0.015,
+              0.17,
+              0.22
+            ],
+            "color": [
+              0.8,
+              0.79,
+              0.71
+            ]
+          },
+          {
+            "name": "ShelfTop",
+            "pos": [
+              0.08,
+              0.43,
+              0.225
+            ],
+            "size": [
+              0.27,
+              0.17,
+              0.015
+            ],
+            "color": [
+              0.8,
+              0.79,
+              0.71
+            ]
+          }
+        ],
+        "difficulty": "medium",
+        "scope": "Extract book; upright placement attempt",
+        "tool_targets_m": {
+          "right": {
+            "hover": [
+              0.08,
+              0.43,
+              0.145
+            ],
+            "pick": [
+              0.08,
+              0.43,
+              0.1
+            ],
+            "lift": [
+              0.08,
+              0.26,
+              0.1
+            ],
+            "transfer": [
+              0.17,
+              0.23,
+              0.145
+            ],
+            "place": [
+              0.17,
+              0.22,
+              0.1
+            ]
+          }
+        },
+        "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+        "source_window_s": [
+          0.2,
+          2.3
+        ],
+        "ik_seed_solutions": {
+          "right": {
+            "hover": [
+              0.17403460028884712,
+              2.4136750014543162,
+              2.415525232981804,
+              -1.572650138355687,
+              -1.3085704753044008e-06,
+              0.1740437121782964
+            ],
+            "pick": [
+              0.17403463434573704,
+              2.3733812803051513,
+              2.1635676065303113,
+              -1.3609862707339386,
+              -1.3812978092138635e-06,
+              0.17404382459917925
+            ],
+            "lift": [
+              0.2736463715182217,
+              1.6995319391131634,
+              1.1751900884550486,
+              -1.0464580126597172,
+              -3.3055917468396223e-06,
+              0.2736563495499317
+            ],
+            "transfer": [
+              -0.03920901668250606,
+              1.511878868897358,
+              1.162688218879141,
+              -1.2216093469718559,
+              -2.6658699700832077e-06,
+              -0.03919902129651446
+            ],
+            "place": [
+              -0.04080674754389742,
+              1.5085446667839892,
+              0.9772858044214248,
+              -1.0395411345729244,
+              -2.6688332537620895e-06,
+              -0.04079675269391774
+            ]
+          }
+        },
+        "ik_max_error": {
+          "right": 3.3851955257184005e-08
+        }
+      },
+      {
+        "episode": 7,
+        "title": "Remove cup lid",
+        "source_member": "test/add_remove_lid/0.mp4",
+        "kind": "rigid",
+        "shape": "lid",
+        "active_arms": [
+          "right"
+        ],
+        "pick": [
+          0.02,
+          0.4,
+          0.095
+        ],
+        "goal": [
+          0.18,
+          0.25,
+          0.012
+        ],
+        "size_m": [
+          0.073,
+          0.073,
+          0.02
+        ],
+        "color": [
+          0.87,
+          0.85,
+          0.76
+        ],
+        "table_color": [
+          0.65,
+          0.43,
+          0.19
+        ],
+        "background_color": [
+          0.35,
+          0.24,
+          0.15
+        ],
+        "props": [],
+        "difficulty": "medium",
+        "scope": "Lift off unlatched lid",
+        "tool_targets_m": {
+          "right": {
+            "hover": [
+              0.02,
+              0.4,
+              0.145
+            ],
+            "pick": [
+              0.02,
+              0.4,
+              0.095
+            ],
+            "lift": [
+              0.02,
+              0.4,
+              0.145
+            ],
+            "transfer": [
+              0.18,
+              0.25,
+              0.145
+            ],
+            "place": [
+              0.18,
+              0.25,
+              0.017
+            ]
+          }
+        },
+        "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+        "cups": [
+          [
+            0.02,
+            0.4,
+            0
+          ]
+        ],
+        "ik_seed_solutions": {
+          "right": {
+            "hover": [
+              0.31820582679559617,
+              2.314387117518461,
+              2.2406252409770215,
+              -1.497037938173631,
+              -2.0064943139384547e-06,
+              0.31821512635708676
+            ],
+            "pick": [
+              0.31820601472075005,
+              2.2978471034421295,
+              2.0134665248194943,
+              -1.2864192369703293,
+              -2.0390481851077922e-06,
+              0.31821534372344207
+            ],
+            "lift": [
+              0.3182058267945605,
+              2.3143871224858747,
+              2.240625251249048,
+              -1.4970379443547919,
+              -2.006497972249462e-06,
+              0.31821512635490545
+            ],
+            "transfer": [
+              -0.07261240387647473,
+              1.5898517859470036,
+              1.2390249377527507,
+              -1.2199731421161861,
+              -2.336552105266446e-06,
+              -0.07260240436707714
+            ],
+            "place": [
+              -0.07261120900356283,
+              1.7740196617592487,
+              0.894669890310382,
+              -0.6914502190792173,
+              -1.8515506983380475e-06,
+              -0.07260126361867383
+            ]
+          }
+        },
+        "ik_max_error": {
+          "right": 8.268843114308568e-10
+        }
+      },
+      {
+        "episode": 8,
+        "title": "Sweep beads into dustpan",
+        "source_member": "test/sweep_dustpan/0.mp4",
+        "kind": "rigid",
+        "shape": "brush",
+        "active_arms": [
+          "right"
+        ],
+        "pick": [
+          0.14,
+          0.23,
+          0.027
+        ],
+        "goal": [
+          -0.13,
+          0.4,
+          0.026
+        ],
+        "size_m": [
+          0.055,
+          0.13,
+          0.05
+        ],
+        "color": [
+          0.62,
+          0.44,
+          0.17
+        ],
+        "table_color": [
+          0.65,
+          0.43,
+          0.19
+        ],
+        "background_color": [
+          0.67,
+          0.61,
+          0.52
+        ],
+        "props": [],
+        "difficulty": "medium",
+        "scope": "One brush stroke toward a fixed dustpan",
+        "tool_targets_m": {
+          "right": {
+            "hover": [
+              0.14,
+              0.23,
+              0.145
+            ],
+            "pick": [
+              0.14,
+              0.23,
+              0.027
+            ],
+            "lift": [
+              0.14,
+              0.28,
+              0.03
+            ],
+            "transfer": [
+              -0.13,
+              0.4,
+              0.03
+            ],
+            "place": [
+              -0.13,
+              0.4,
+              0.026
+            ]
+          }
+        },
+        "grasp_model": "Physical finger contact; no attachment or object pose animation.",
+        "sweep": true,
+        "ik_seed_solutions": {
+          "right": {
+            "hover": [
+              0.07825738714430011,
+              1.5141206816052162,
+              1.1647936860508445,
+              -1.2214729931940864,
+              -3.091074206326582e-06,
+              0.07826738287290491
+            ],
+            "pick": [
+              0.0782588999326634,
+              1.6805118931525933,
+              0.8312322242015886,
+              -0.7215203201191239,
+              -2.6502107513705047e-06,
+              0.07826888396829935
+            ],
+            "lift": [
+              0.06546828392232057,
+              1.8445570506558935,
+              1.0486582004075033,
+              -0.7749011418759703,
+              -2.176497176214721e-06,
+              0.0654781850977765
+            ],
+            "transfer": [
+              0.5987741474967164,
+              2.7390150176912997,
+              2.56892913651647,
+              -1.4007134182143748,
+              -2.282476012229838e-06,
+              0.5987825335580307
+            ],
+            "place": [
+              0.5987741585867599,
+              2.7362782620475214,
+              2.5476661351675687,
+              -1.3821872339859542,
+              -2.285330836183381e-06,
+              0.5987825513241104
+            ]
+          }
+        },
+        "ik_max_error": {
+          "right": 8.434986300529612e-08
+        }
+      },
+      {
+        "episode": 9,
+        "title": "Unplug phone cable",
+        "source_member": "test/charge_uncharge_device/2.mp4",
+        "kind": "cable",
+        "active_arms": [
+          "left"
+        ],
+        "color": [
+          0.81,
+          0.81,
+          0.76
+        ],
+        "table_color": [
+          0.42,
+          0.48,
+          0.21
+        ],
+        "background_color": [
+          0.63,
+          0.56,
+          0.45
+        ],
+        "difficulty": "hard",
+        "scope": "Connector motion attempt; electrical fit and retention unvalidated",
+        "props": [],
+        "cable_control_points": [
+          [
+            -0.22,
+            0.23,
+            0.009
+          ],
+          [
+            -0.23,
+            0.43,
+            0.009
+          ],
+          [
+            -0.03,
+            0.39,
+            0.014
+          ]
+        ],
+        "device": "phone",
+        "tool_targets_m": {
+          "left": {
+            "hover": [
+              -0.03,
+              0.39,
+              0.14
+            ],
+            "pick": [
+              -0.03,
+              0.39,
+              0.025
+            ],
+            "lift": [
+              -0.13,
+              0.39,
+              0.055
+            ],
+            "transfer": [
+              -0.19,
+              0.32,
+              0.08
+            ],
+            "place": [
+              -0.19,
+              0.32,
+              0.025
+            ]
+          }
+        },
+        "grasp_model": "Idealized attachment at the cable connector; native PhysX jointed cable. No validated connector insertion model.",
+        "ik_seed_solutions": {
+          "left": {
+            "hover": [
+              -0.3035810744558141,
+              2.240098403260048,
+              2.0954320823652894,
+              -1.4261334991062653,
+              9.411492513406532e-08,
+              -0.3035716538354731
+            ],
+            "pick": [
+              -0.30358098757859503,
+              2.3001174975207204,
+              1.7340819069652011,
+              -1.0047642415290836,
+              2.1272457862635768e-07,
+              -0.3035716625815336
+            ],
+            "lift": [
+              -0.07217435067249918,
+              2.1908171426718517,
+              1.6745368402780354,
+              -1.0545196875869027,
+              -8.468382616190625e-07,
+              -0.0721648445993332
+            ],
+            "transfer": [
+              0.08672655503909694,
+              1.9047330629670896,
+              1.3488462902066363,
+              -1.014913213427104,
+              -2.102010900276561e-06,
+              0.08673640844587141
+            ],
+            "place": [
+              0.08672699188315257,
+              1.989279321095482,
+              1.2300724940914523,
+              -0.8115931517927194,
+              -1.8934134180604042e-06,
+              0.08673676288926965
+            ]
+          }
+        },
+        "ik_max_error": {
+          "left": 1.1956397223347941e-08
+        }
+      },
+      {
+        "episode": 10,
+        "title": "Insert plug into power strip",
+        "source_member": "test/insert_remove_plug_socket/40.mp4",
+        "kind": "cable",
+        "active_arms": [
+          "right"
+        ],
+        "color": [
+          0.81,
+          0.81,
+          0.76
+        ],
+        "table_color": [
+          0.11,
+          0.14,
+          0.24
+        ],
+        "background_color": [
+          0.63,
+          0.56,
+          0.45
+        ],
+        "difficulty": "hard",
+        "scope": "Connector motion attempt; electrical fit and retention unvalidated",
+        "props": [],
+        "cable_control_points": [
+          [
+            -0.23,
+            0.2,
+            0.009
+          ],
+          [
+            -0.2,
+            0.45,
+            0.009
+          ],
+          [
+            0.1,
+            0.27,
+            0.038
+          ]
+        ],
+        "device": "socket",
+        "tool_targets_m": {
+          "right": {
+            "hover": [
+              0.1,
+              0.27,
+              0.16
+            ],
+            "pick": [
+              0.1,
+              0.27,
+              0.04
+            ],
+            "lift": [
+              0.1,
+              0.27,
+              0.16
+            ],
+            "transfer": [
+              0.12,
+              0.43,
+              0.16
+            ],
+            "place": [
+              0.12,
+              0.43,
+              0.105
+            ]
+          }
+        },
+        "grasp_model": "Idealized attachment at the cable connector; native PhysX jointed cable. No validated connector insertion model.",
+        "ik_seed_solutions": {
+          "right": {
+            "hover": [
+              0.20063947716130343,
+              1.6810743981329488,
+              1.3960929817559204,
+              -1.2858185099246227,
+              -3.0936133681452176e-06,
+              0.2006494610318474
+            ],
+            "pick": [
+              0.2006408282904554,
+              1.8087100589745484,
+              1.0479278793765596,
+              -0.8100177468128819,
+              -2.7602726307424385e-06,
+              0.20065075353500117
+            ],
+            "lift": [
+              0.2006394771614466,
+              1.6810743789939986,
+              1.3960929412766763,
+              -1.2858184842753801,
+              -3.0936144537744203e-06,
+              0.20064946103288084
+            ],
+            "transfer": [
+              0.08767608553023491,
+              2.404809776188637,
+              2.461200086449873,
+              -1.6271902956744233,
+              -1.0098972875069307e-06,
+              0.08768521490747347
+            ],
+            "place": [
+              0.08767606902294009,
+              2.34526264048275,
+              2.134396734696139,
+              -1.359934080119161,
+              -1.119489051497625e-06,
+              0.08768531220075684
+            ]
+          }
+        },
+        "ik_max_error": {
+          "right": 6.93109752772094e-09
+        }
+      },
+      {
+        "episode": 11,
+        "title": "Fold yellow cloth",
+        "source_member": "test/fold_stack_unstack_unfold_cloths/1.mp4",
+        "kind": "cloth",
+        "shape": "rectangle",
+        "active_arms": [
+          "left",
+          "right"
+        ],
+        "color": [
+          0.91,
+          0.78,
+          0.005
+        ],
+        "table_color": [
+          0.42,
+          0.48,
+          0.21
+        ],
+        "background_color": [
+          0.11,
+          0.14,
+          0.24
+        ],
+        "difficulty": "hard",
+        "scope": "First half-fold only",
+        "bounds": [
+          -0.18,
+          0.18,
+          0.2,
+          0.48
+        ],
+        "grasp_x": [
+          -0.18,
+          0.18
+        ],
+        "props": [
+          {
+            "name": "FoldedBlueCloth",
+            "pos": [
+              0.27,
+              0.46,
+              0.005
+            ],
+            "size": [
+              0.14,
+              0.1,
+              0.01
+            ],
+            "color": [
+              0.2,
+              0.4,
+              0.45
+            ]
+          }
+        ],
+        "tool_targets_m": {
+          "left": {
+            "hover": [
+              -0.18,
+              0.2,
+              0.12
+            ],
+            "pick": [
+              -0.18,
+              0.2,
+              0.008
+            ],
+            "lift": [
+              -0.18,
+              0.33999999999999997,
+              0.18
+            ],
+            "transfer": [
+              -0.18,
+              0.46799999999999997,
+              0.045
+            ],
+            "place": [
+              -0.18,
+              0.474,
+              0.012
+            ]
+          },
+          "right": {
+            "hover": [
+              0.18,
+              0.2,
+              0.12
+            ],
+            "pick": [
+              0.18,
+              0.2,
+              0.008
+            ],
+            "lift": [
+              0.18,
+              0.33999999999999997,
+              0.18
+            ],
+            "transfer": [
+              0.18,
+              0.46799999999999997,
+              0.045
+            ],
+            "place": [
+              0.18,
+              0.474,
+              0.012
+            ]
+          }
+        },
+        "grasp_model": "Idealized corner attachments; native PhysX particle cloth and self-collision. Robot-cloth collision disabled.",
+        "source_window_s": [
+          0,
+          3.0
+        ],
+        "ik_seed_solutions": {
+          "left": {
+            "hover": [
+              0.08864180715717643,
+              1.413250050908344,
+              0.9750171838668603,
+              -1.1325671185250392,
+              -3.3951052462773936e-06,
+              0.08865177428194705
+            ],
+            "pick": [
+              0.08864352694672135,
+              1.6263716753614208,
+              0.6757986442031036,
+              -0.620226954903565,
+              -2.8313808250097454e-06,
+              0.08865352284015234
+            ],
+            "lift": [
+              0.05472767175155236,
+              1.936917002482327,
+              1.7944038800251703,
+              -1.4282868720356459,
+              -1.904550189519367e-06,
+              0.05473749587343936
+            ],
+            "transfer": [
+              0.04053588353677896,
+              2.5648016536890776,
+              2.29341483979262,
+              -1.299413141570791,
+              -5.781669459509714e-07,
+              0.04054467704562292
+            ],
+            "place": [
+              0.0400490579579669,
+              2.619209334248029,
+              2.265307151485524,
+              -1.2168978142871707,
+              -5.00976599754856e-07,
+              0.040057728367388176
+            ]
+          },
+          "right": {
+            "hover": [
+              -0.08866943077675148,
+              1.4132500509194013,
+              0.9750171838925554,
+              -1.1325671185356667,
+              -2.7446606676805875e-06,
+              -0.08865946365130517
+            ],
+            "pick": [
+              -0.08866803349444298,
+              1.62637167535444,
+              0.6757986442015264,
+              -0.6202269549029347,
+              -2.180931964129401e-06,
+              -0.08865803759982122
+            ],
+            "lift": [
+              -0.05475162159725022,
+              1.9369170024786118,
+              1.7944038800243465,
+              -1.4282868720347432,
+              -1.50261109290614e-06,
+              -0.05474179747462803
+            ],
+            "transfer": [
+              -0.040555488022850916,
+              2.56480165364554,
+              2.2934148397254055,
+              -1.2994131415409418,
+              -2.8038333237386773e-07,
+              -0.04054669451340616
+            ],
+            "place": [
+              -0.04006833636576482,
+              2.619209334245052,
+              2.265307151484182,
+              -1.216897814286319,
+              -2.067676786088757e-07,
+              -0.04005966595580514
+            ]
+          }
+        },
+        "ik_max_error": {
+          "left": 5.679529724545417e-08,
+          "right": 5.6800147838957894e-08
+        }
+      },
+      {
+        "episode": 12,
+        "title": "Fold shirt: partial attempt",
+        "source_member": "test/basic_fold/38.mp4",
+        "kind": "cloth",
+        "shape": "tshirt",
+        "active_arms": [
+          "left",
+          "right"
+        ],
+        "color": [
+          0.56,
+          0.25,
+          0.2
+        ],
+        "table_color": [
+          0.42,
+          0.48,
+          0.21
+        ],
+        "background_color": [
+          0.7,
+          0.65,
+          0.56
+        ],
+        "difficulty": "hard",
+        "scope": "One fold on a shirt-shaped cloth; full folding sequence not reproduced",
+        "bounds": [
+          -0.18,
+          0.18,
+          0.2,
+          0.48
+        ],
+        "grasp_x": [
+          -0.115,
+          0.115
+        ],
+        "props": [],
+        "tool_targets_m": {
+          "left": {
+            "hover": [
+              -0.115,
+              0.2,
+              0.12
+            ],
+            "pick": [
+              -0.115,
+              0.2,
+              0.008
+            ],
+            "lift": [
+              -0.115,
+              0.33999999999999997,
+              0.18
+            ],
+            "transfer": [
+              -0.115,
+              0.46799999999999997,
+              0.045
+            ],
+            "place": [
+              -0.115,
+              0.474,
+              0.012
+            ]
+          },
+          "right": {
+            "hover": [
+              0.115,
+              0.2,
+              0.12
+            ],
+            "pick": [
+              0.115,
+              0.2,
+              0.008
+            ],
+            "lift": [
+              0.115,
+              0.33999999999999997,
+              0.18
+            ],
+            "transfer": [
+              0.115,
+              0.46799999999999997,
+              0.045
+            ],
+            "place": [
+              0.115,
+              0.474,
+              0.012
+            ]
+          }
+        },
+        "grasp_model": "Idealized corner attachments; native PhysX particle cloth and self-collision. Robot-cloth collision disabled.",
+        "ik_seed_solutions": {
+          "left": {
+            "hover": [
+              -0.19740872160782993,
+              1.4273543429232345,
+              0.9868636394506168,
+              -1.130309225181109,
+              -2.312509254847951e-06,
+              -0.19739874887019576
+            ],
+            "pick": [
+              -0.1974075507134892,
+              1.6392297771627176,
+              0.6897561944812796,
+              -0.6213263463587505,
+              -1.7517287274657752e-06,
+              -0.1973975569321781
+            ],
+            "lift": [
+              -0.12268030004008151,
+              1.9462863877302246,
+              1.8073443453844809,
+              -1.4318579300402121,
+              -1.2309514256667539e-06,
+              -0.12267048492617802
+            ],
+            "transfer": [
+              -0.09103535226536383,
+              2.575864940599732,
+              2.3142220457617224,
+              -1.3091570148808545,
+              -7.950799128628078e-08,
+              -0.09102658345133997
+            ],
+            "place": [
+              -0.08994664587857713,
+              2.629646508414845,
+              2.2852962060328026,
+              -1.226449682764053,
+              -1.0266936688507075e-08,
+              -0.08993799954214111
+            ]
+          },
+          "right": {
+            "hover": [
+              0.19738125155398348,
+              1.427354342873258,
+              0.9868636393570723,
+              -1.1303092251451066,
+              -3.7532427474484295e-06,
+              0.19739122428910102
+            ],
+            "pick": [
+              0.19738312569307997,
+              1.639229777176296,
+              0.6897561944833112,
+              -0.621326346360719,
+              -3.1924767537744018e-06,
+              0.1973931194718515
+            ],
+            "lift": [
+              0.12265641799032076,
+              1.9462863877386667,
+              1.8073443453864766,
+              -1.431857930042308,
+              -2.1298651378633267e-06,
+              0.1226662331025833
+            ],
+            "transfer": [
+              0.09101580585666492,
+              2.5758649406669654,
+              2.314222045880199,
+              -1.3091570149437464,
+              -7.47295969374412e-07,
+              0.09102457466926075
+            ],
+            "place": [
+              0.08992742156873808,
+              2.6296465084214535,
+              2.2852962060357704,
+              -1.226449682765878,
+              -6.700909227236315e-07,
+              0.08993606790396967
+            ]
+          }
+        },
+        "ik_max_error": {
+          "left": 1.0283527787929796e-07,
+          "right": 1.0282707963179726e-07
+        },
+        "source_window_s": [
+          2.0,
+          6.25
+        ]
+      }
+    ]
+  },
+  "method": "Manually inspected human video; hand-authored approximate geometry and task-space waypoints, URDF IK, actual Isaac PhysX stepping. No learned video-to-policy model or automatic reconstruction."
+}

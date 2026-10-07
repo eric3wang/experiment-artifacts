@@ -1,0 +1,349 @@
+{
+  "human_sources": 12,
+  "grid": [
+    4,
+    3
+  ],
+  "outcomes": {
+    "success": 5,
+    "failed_attempt": 4,
+    "partial_attempt": 3
+  },
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "White block \u2192 blue plate",
+      "outcome": "success",
+      "scope": "Selected action",
+      "checks": {
+        "lifted": true,
+        "placed_at_goal": true,
+        "settled_after_release": true,
+        "finite_physics": true,
+        "resting_at_goal_height": true,
+        "rendered_all_frames": true
+      },
+      "metrics": {
+        "initial_position_m": [
+          0.13999968767166138,
+          0.29000023007392883,
+          0.02399998903274536
+        ],
+        "final_position_m": [
+          -0.11887221783399582,
+          0.35010087490081787,
+          0.035999998450279236
+        ],
+        "goal_error_m": 0.0011322845753484816,
+        "maximum_height_m": 0.15859292447566986
+      }
+    },
+    {
+      "episode": 2,
+      "title": "Toy block \u2192 red plate",
+      "outcome": "success",
+      "scope": "Selected action",
+      "checks": {
+        "lifted": true,
+        "placed_at_goal": true,
+        "settled_after_release": true,
+        "finite_physics": true,
+        "resting_at_goal_height": true,
+        "rendered_all_frames": true
+      },
+      "metrics": {
+        "initial_position_m": [
+          0.19000159204006195,
+          0.39000117778778076,
+          0.022499993443489075
+        ],
+        "final_position_m": [
+          -0.09872637689113617,
+          0.31011635065078735,
+          0.03449999541044235
+        ],
+        "goal_error_m": 0.001278926619228259,
+        "maximum_height_m": 0.143171489238739
+      }
+    },
+    {
+      "episode": 3,
+      "title": "Lift creamer from tray",
+      "outcome": "success",
+      "scope": "Selected action",
+      "checks": {
+        "lifted": true,
+        "placed_at_goal": true,
+        "settled_after_release": true,
+        "finite_physics": true,
+        "resting_at_goal_height": true,
+        "rendered_all_frames": true
+      },
+      "metrics": {
+        "initial_position_m": [
+          0.020000005140900612,
+          0.39999985694885254,
+          0.044999994337558746
+        ],
+        "final_position_m": [
+          0.18090757727622986,
+          0.26655516028404236,
+          0.025000005960464478
+        ],
+        "goal_error_m": 0.0035623892517477745,
+        "maximum_height_m": 0.14888069033622742
+      }
+    },
+    {
+      "episode": 4,
+      "title": "Yellow toy \u2192 block stack",
+      "outcome": "success",
+      "scope": "Selected action",
+      "checks": {
+        "lifted": true,
+        "placed_at_goal": true,
+        "settled_after_release": true,
+        "finite_physics": true,
+        "resting_at_goal_height": true,
+        "rendered_all_frames": true
+      },
+      "metrics": {
+        "initial_position_m": [
+          0.10000011324882507,
+          0.2300000935792923,
+          0.024999991059303284
+        ],
+        "final_position_m": [
+          0.13118110597133636,
+          0.4195009171962738,
+          0.09000000357627869
+        ],
+        "goal_error_m": 0.0012822226641662487,
+        "maximum_height_m": 0.15767958760261536
+      }
+    },
+    {
+      "episode": 5,
+      "title": "Stack the last paper cup",
+      "outcome": "failed_attempt",
+      "scope": "Final cup placement, simplified nesting",
+      "checks": {
+        "lifted": true,
+        "placed_at_goal": false,
+        "settled_after_release": false,
+        "finite_physics": true,
+        "resting_at_goal_height": false,
+        "rendered_all_frames": true
+      },
+      "metrics": {
+        "initial_position_m": [
+          0.18999995291233063,
+          0.30000004172325134,
+          3.725290298461914e-09
+        ],
+        "final_position_m": [
+          0.028551531955599785,
+          0.37677016854286194,
+          0.1053241491317749
+        ],
+        "goal_error_m": 0.06888503259459472,
+        "maximum_height_m": 0.10532434284687042
+      }
+    },
+    {
+      "episode": 6,
+      "title": "Take book out of shelf",
+      "outcome": "failed_attempt",
+      "scope": "Extract book; upright placement attempt",
+      "checks": {
+        "lifted": false,
+        "placed_at_goal": false,
+        "settled_after_release": true,
+        "finite_physics": true,
+        "resting_at_goal_height": true,
+        "rendered_all_frames": true
+      },
+      "metrics": {
+        "initial_position_m": [
+          0.05158412083983421,
+          0.423611581325531,
+          0.09354707598686218
+        ],
+        "final_position_m": [
+          0.030237950384616852,
+          0.4388870298862457,
+          0.09048955887556076
+        ],
+        "goal_error_m": 0.25970167955774764,
+        "maximum_height_m": 0.11231628805398941
+      }
+    },
+    {
+      "episode": 7,
+      "title": "Remove cup lid",
+      "outcome": "success",
+      "scope": "Lift off unlatched lid",
+      "checks": {
+        "lifted": true,
+        "placed_at_goal": true,
+        "settled_after_release": true,
+        "finite_physics": true,
+        "resting_at_goal_height": true,
+        "rendered_all_frames": true
+      },
+      "metrics": {
+        "initial_position_m": [
+          0.020000139251351357,
+          0.40000003576278687,
+          0.09400000423192978
+        ],
+        "final_position_m": [
+          0.18114589154720306,
+          0.25014156103134155,
+          0.010000001639127731
+        ],
+        "goal_error_m": 0.0011546025132251926,
+        "maximum_height_m": 0.16043390333652496
+      }
+    },
+    {
+      "episode": 8,
+      "title": "Sweep beads into dustpan",
+      "outcome": "failed_attempt",
+      "scope": "One brush stroke toward a fixed dustpan",
+      "checks": {
+        "beads_in_pan": false,
+        "finite_physics": true,
+        "brush_released": true,
+        "rendered_all_frames": true
+      },
+      "metrics": {
+        "initial_position_m": [
+          0.14004169404506683,
+          0.23000146448612213,
+          0.024999994784593582
+        ],
+        "final_position_m": [
+          -0.10156304389238358,
+          0.40505921840667725,
+          0.03348883241415024
+        ],
+        "goal_error_m": 0.02888349292507686,
+        "maximum_height_m": 0.04416928067803383,
+        "beads_in_pan": 0
+      }
+    },
+    {
+      "episode": 9,
+      "title": "Unplug phone cable",
+      "outcome": "partial_attempt",
+      "scope": "Connector motion attempt; electrical fit and retention unvalidated",
+      "checks": {
+        "finite_physics": true,
+        "cable_length_preserved": true,
+        "connector_moved": true,
+        "connector_reached_goal_xy": true,
+        "released": true,
+        "electrical_fit_validated": false,
+        "rendered_all_frames": true
+      },
+      "metrics": {
+        "goal_error_m": 0.01888848381367226,
+        "maximum_link_length_m": 0.006314171478152275,
+        "final_connector_m": [
+          -0.2065006047487259,
+          0.31080734729766846,
+          0.004000000189989805
+        ]
+      }
+    },
+    {
+      "episode": 10,
+      "title": "Insert plug into power strip",
+      "outcome": "partial_attempt",
+      "scope": "Connector motion attempt; electrical fit and retention unvalidated",
+      "checks": {
+        "finite_physics": true,
+        "cable_length_preserved": true,
+        "connector_moved": true,
+        "connector_reached_goal_xy": false,
+        "released": true,
+        "electrical_fit_validated": false,
+        "rendered_all_frames": true
+      },
+      "metrics": {
+        "goal_error_m": 0.06944021036187155,
+        "maximum_link_length_m": 0.010963007807731628,
+        "final_connector_m": [
+          0.11512837558984756,
+          0.3607308864593506,
+          0.003999999724328518
+        ]
+      }
+    },
+    {
+      "episode": 11,
+      "title": "Fold yellow cloth",
+      "outcome": "failed_attempt",
+      "scope": "First half-fold only",
+      "checks": {
+        "cloth_lifted": true,
+        "corners_folded_to_far_edge": false,
+        "free_vertices_deformed": true,
+        "cloth_stayed_above_table": true,
+        "finite_physics": true,
+        "attachments_released": true,
+        "cloth_resting_after_release": false,
+        "rendered_all_frames": true
+      },
+      "metrics": {
+        "goal_error_m": 0.060158806734981016,
+        "max_height_m": 0.18541903793811798,
+        "final_corner_positions_m": [
+          [
+            -0.15960852056741714,
+            0.41740256547927856,
+            0.015911022201180458
+          ],
+          [
+            0.15445750206708908,
+            0.4661434292793274,
+            0.06117837131023407
+          ]
+        ]
+      }
+    },
+    {
+      "episode": 12,
+      "title": "Fold shirt: partial attempt",
+      "outcome": "partial_attempt",
+      "scope": "One fold on a shirt-shaped cloth; full folding sequence not reproduced",
+      "checks": {
+        "cloth_lifted": true,
+        "corners_folded_to_far_edge": true,
+        "free_vertices_deformed": true,
+        "cloth_stayed_above_table": true,
+        "finite_physics": true,
+        "attachments_released": true,
+        "cloth_resting_after_release": true,
+        "rendered_all_frames": true
+      },
+      "metrics": {
+        "goal_error_m": 0.028454360291597612,
+        "max_height_m": 0.18074186146259308,
+        "final_corner_positions_m": [
+          [
+            -0.13229164481163025,
+            0.496597558259964,
+            0.010673352517187595
+          ],
+          [
+            0.10053134709596634,
+            0.49554604291915894,
+            0.01065733376890421
+          ]
+        ]
+      }
+    }
+  ]
+}
