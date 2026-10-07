@@ -1,0 +1,2652 @@
+{
+  "entries": [
+    {
+      "episode": 2,
+      "source_url": "https://dreamzero0.github.io/yam_gallery/videos/episode_000002_processed_small.mp4",
+      "source_page": "https://dreamzero0.github.io/yam_gallery/",
+      "description": "Pick up the black cube and place it on the red halo pad.",
+      "duration_s": 4.541667,
+      "sha256": "26845732d0fa53a2a570598125b605b7133e34319af3d26cca0846920c71e1ef",
+      "source_speed": 4,
+      "local_file": "000002.mp4",
+      "source_start_s": 0,
+      "source_end_s": 4.541667,
+      "source_credit": "DreamZero project \u2014 real YAM teleoperation",
+      "source_robot": "YAM",
+      "selection_note": "Public project-hosted source; YouTube downloader hit sign-in/bot gate. No third-party source media redistributed.",
+      "title": "Cube \u2192 red pad",
+      "category": "rigid",
+      "caption": "Physical contact grasp; no object attachment.",
+      "sim_url": "media/000002.mp4",
+      "sim_poster": "media/000002.png",
+      "source_poster": "https://dreamzero0.github.io/yam_gallery/videos/episode_000002_processed_small.jpg",
+      "validation": {
+        "episode": 2,
+        "kind": "cube",
+        "passed": true,
+        "checks": {
+          "lifted_clear_of_table": true,
+          "placed_at_source_goal": true,
+          "resting_on_target_surface": true,
+          "settled_after_release": true,
+          "finite_physics": true,
+          "rendered_all_frames": true,
+          "both_fingers_reopened": true
+        },
+        "initial_position_m": [
+          -0.2119656801223755,
+          0.3244452178478241,
+          0.02399999275803566
+        ],
+        "final_position_m": [
+          -0.0441213957965374,
+          0.25035688281059265,
+          0.025999998673796654
+        ],
+        "maximum_height_m": 0.11491915583610535,
+        "goal_xy_m": [
+          -0.0450823919577159,
+          0.25106228624727944
+        ],
+        "goal_error_m": 0.00119210218953299,
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.0,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.0,
+            "duration_s": 2.5
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.5
+          },
+          {
+            "name": "retreat",
+            "start_s": 14.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 16.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manual video tracing + planar perspective fit + scripted physical IK control; no learned reconstruction or video-to-policy model.",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 0
+      },
+      "sim_sha256": "d16809b8168ca7f09159ae8f54d18b698347357deb89dc227ab2466f26d389bd"
+    },
+    {
+      "episode": 6,
+      "source_url": "https://dreamzero0.github.io/yam_gallery/videos/episode_000006_processed_small.mp4",
+      "source_page": "https://dreamzero0.github.io/yam_gallery/",
+      "description": "Pick up the black cube and place it on the red halo pad.",
+      "duration_s": 4.65,
+      "sha256": "e96de061144983f2827fc8400f8e9dc78ab5013347d74ab0163b6a30b10b14f1",
+      "source_speed": 4,
+      "local_file": "000006.mp4",
+      "source_start_s": 0,
+      "source_end_s": 4.65,
+      "source_credit": "DreamZero project \u2014 real YAM teleoperation",
+      "source_robot": "YAM",
+      "selection_note": "Public project-hosted source; YouTube downloader hit sign-in/bot gate. No third-party source media redistributed.",
+      "title": "Cube \u2192 red pad",
+      "category": "rigid",
+      "caption": "Physical contact grasp; no object attachment.",
+      "sim_url": "media/000006.mp4",
+      "sim_poster": "media/000006.png",
+      "source_poster": "https://dreamzero0.github.io/yam_gallery/videos/episode_000006_processed_small.jpg",
+      "validation": {
+        "episode": 6,
+        "kind": "cube",
+        "passed": true,
+        "checks": {
+          "lifted_clear_of_table": true,
+          "placed_at_source_goal": true,
+          "resting_on_target_surface": true,
+          "settled_after_release": true,
+          "finite_physics": true,
+          "rendered_all_frames": true,
+          "both_fingers_reopened": true
+        },
+        "initial_position_m": [
+          -0.21885623037815094,
+          0.34165504574775696,
+          0.024000000208616257
+        ],
+        "final_position_m": [
+          -0.20629054307937622,
+          0.25125473737716675,
+          0.025999994948506355
+        ],
+        "maximum_height_m": 0.11843420565128326,
+        "goal_xy_m": [
+          -0.2073790030054928,
+          0.25106228624727944
+        ],
+        "goal_error_m": 0.0011053426835857848,
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.0,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.0,
+            "duration_s": 2.5
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.5
+          },
+          {
+            "name": "retreat",
+            "start_s": 14.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 16.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manual video tracing + planar perspective fit + scripted physical IK control; no learned reconstruction or video-to-policy model.",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 0
+      },
+      "sim_sha256": "0cdb76903ad582cb92b1060aa2888fe2081bdcecda0d5dcaa3146d849da14d37"
+    },
+    {
+      "episode": 7,
+      "source_url": "https://dreamzero0.github.io/yam_gallery/videos/episode_000007_processed_small.mp4",
+      "source_page": "https://dreamzero0.github.io/yam_gallery/",
+      "description": "Pick up the black cube and place it on the red halo pad.",
+      "duration_s": 5.9,
+      "sha256": "597efef9636dc94f4a3c45df5ecd298408138e01da63e8f0e7521c558a372bd7",
+      "source_speed": 4,
+      "local_file": "000007.mp4",
+      "source_start_s": 0,
+      "source_end_s": 5.9,
+      "source_credit": "DreamZero project \u2014 real YAM teleoperation",
+      "source_robot": "YAM",
+      "selection_note": "Public project-hosted source; YouTube downloader hit sign-in/bot gate. No third-party source media redistributed.",
+      "title": "Cube \u2192 red pad",
+      "category": "rigid",
+      "caption": "Physical contact grasp; no object attachment.",
+      "sim_url": "media/000007.mp4",
+      "sim_poster": "media/000007.png",
+      "source_poster": "https://dreamzero0.github.io/yam_gallery/videos/episode_000007_processed_small.jpg",
+      "validation": {
+        "episode": 7,
+        "kind": "cube",
+        "passed": true,
+        "checks": {
+          "lifted_clear_of_table": true,
+          "placed_at_source_goal": true,
+          "resting_on_target_surface": true,
+          "settled_after_release": true,
+          "finite_physics": true,
+          "rendered_all_frames": true,
+          "both_fingers_reopened": true
+        },
+        "initial_position_m": [
+          -0.022541336715221405,
+          0.25106245279312134,
+          0.024000000208616257
+        ],
+        "final_position_m": [
+          -0.2062843143939972,
+          0.2510645091533661,
+          0.025999998673796654
+        ],
+        "maximum_height_m": 0.11828677356243134,
+        "goal_xy_m": [
+          -0.2073790030054928,
+          0.25106228624727944
+        ],
+        "goal_error_m": 0.0010946908684417106,
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.0,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.0,
+            "duration_s": 2.5
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.5
+          },
+          {
+            "name": "retreat",
+            "start_s": 14.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 16.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manual video tracing + planar perspective fit + scripted physical IK control; no learned reconstruction or video-to-policy model.",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 0
+      },
+      "sim_sha256": "b2d08597fd342d27f9d152fa7984410ec8474886b0fd0867bf9becbfe3057c63"
+    },
+    {
+      "episode": 9,
+      "source_url": "https://dreamzero0.github.io/yam_gallery/videos/episode_000009_processed_small.mp4",
+      "source_page": "https://dreamzero0.github.io/yam_gallery/",
+      "description": "Pick up the black cube and place it on the red halo pad.",
+      "duration_s": 4.866016,
+      "sha256": "e475a00e17ea0ebfbb7a9e74d25fb49e6792b547b76ed0946516c7e7bbcf362a",
+      "source_speed": 4,
+      "local_file": "000009.mp4",
+      "source_start_s": 0,
+      "source_end_s": 4.866016,
+      "source_credit": "DreamZero project \u2014 real YAM teleoperation",
+      "source_robot": "YAM",
+      "selection_note": "Public project-hosted source; YouTube downloader hit sign-in/bot gate. No third-party source media redistributed.",
+      "title": "Cube \u2192 red pad",
+      "category": "rigid",
+      "caption": "Physical contact grasp; no object attachment.",
+      "sim_url": "media/000009.mp4",
+      "sim_poster": "media/000009.png",
+      "source_poster": "https://dreamzero0.github.io/yam_gallery/videos/episode_000009_processed_small.jpg",
+      "validation": {
+        "episode": 9,
+        "kind": "cube",
+        "passed": true,
+        "checks": {
+          "lifted_clear_of_table": true,
+          "placed_at_source_goal": true,
+          "resting_on_target_surface": true,
+          "settled_after_release": true,
+          "finite_physics": true,
+          "rendered_all_frames": true,
+          "both_fingers_reopened": true
+        },
+        "initial_position_m": [
+          -0.21962329745292664,
+          0.3862338364124298,
+          0.024000000208616257
+        ],
+        "final_position_m": [
+          -0.2072754055261612,
+          0.2592187225818634,
+          0.025999991223216057
+        ],
+        "maximum_height_m": 0.12213049829006195,
+        "goal_xy_m": [
+          -0.20837238363011562,
+          0.2589034676663542
+        ],
+        "goal_error_m": 0.0011413792631321848,
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.0,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.0,
+            "duration_s": 2.5
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.5
+          },
+          {
+            "name": "retreat",
+            "start_s": 14.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 16.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manual video tracing + planar perspective fit + scripted physical IK control; no learned reconstruction or video-to-policy model.",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 0
+      },
+      "sim_sha256": "b14b039e40c765b6409bcec252c1f5e054a09748a0c2a91a7bfff03834098c98"
+    },
+    {
+      "episode": 17,
+      "source_url": "https://dreamzero0.github.io/yam_gallery/videos/episode_000017_processed_small.mp4",
+      "source_page": "https://dreamzero0.github.io/yam_gallery/",
+      "description": "Pick up the black bar and place it on the red horizontal pad.",
+      "duration_s": 5.466667,
+      "sha256": "f660923aeb1189bf6acbb8f7b8e438e1447ec864480f6f887dba6b08fab46900",
+      "source_speed": 4,
+      "local_file": "000017.mp4",
+      "source_start_s": 0,
+      "source_end_s": 5.466667,
+      "source_credit": "DreamZero project \u2014 real YAM teleoperation",
+      "source_robot": "YAM",
+      "selection_note": "Public project-hosted source; YouTube downloader hit sign-in/bot gate. No third-party source media redistributed.",
+      "title": "Two-arm bar \u2192 pad",
+      "category": "rigid",
+      "caption": "Physical contact grasp; no object attachment.",
+      "sim_url": "media/000017.mp4",
+      "sim_poster": "media/000017.png",
+      "source_poster": "https://dreamzero0.github.io/yam_gallery/videos/episode_000017_processed_small.jpg",
+      "validation": {
+        "episode": 17,
+        "kind": "bar",
+        "passed": true,
+        "checks": {
+          "lifted_clear_of_table": true,
+          "placed_at_source_goal": true,
+          "resting_on_target_surface": true,
+          "settled_after_release": true,
+          "finite_physics": true,
+          "rendered_all_frames": true,
+          "both_fingers_reopened": true
+        },
+        "initial_position_m": [
+          0.07462206482887268,
+          0.30757489800453186,
+          0.012999995611608028
+        ],
+        "final_position_m": [
+          -0.01577555574476719,
+          0.4234538972377777,
+          0.014999997802078724
+        ],
+        "maximum_height_m": 0.12026003003120422,
+        "goal_xy_m": [
+          -0.01495016611295691,
+          0.4235880398671096
+        ],
+        "goal_error_m": 0.0008362190438539262,
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.0,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.0,
+            "duration_s": 2.5
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.5
+          },
+          {
+            "name": "retreat",
+            "start_s": 14.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 16.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manual video tracing + planar perspective fit + scripted physical IK control; no learned reconstruction or video-to-policy model.",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 0
+      },
+      "sim_sha256": "2f3d805201b2ee9af2a2b605a52c9e9b0f6830f74cce46215a09274a2a9dda1c"
+    },
+    {
+      "episode": 21,
+      "source_url": "https://dreamzero0.github.io/yam_gallery/videos/episode_000021_processed_small.mp4",
+      "source_page": "https://dreamzero0.github.io/yam_gallery/",
+      "description": "Pick up the black bar and place it on the red horizontal pad.",
+      "duration_s": 6.4,
+      "sha256": "56ca0ba69ffe23d7c3362694ddad0cd37beb04e93a287b98132e91f471e594d3",
+      "source_speed": 4,
+      "local_file": "000021.mp4",
+      "source_start_s": 0,
+      "source_end_s": 6.4,
+      "source_credit": "DreamZero project \u2014 real YAM teleoperation",
+      "source_robot": "YAM",
+      "selection_note": "Public project-hosted source; YouTube downloader hit sign-in/bot gate. No third-party source media redistributed.",
+      "title": "Two-arm bar \u2192 pad",
+      "category": "rigid",
+      "caption": "Physical contact grasp; no object attachment.",
+      "sim_url": "media/000021.mp4",
+      "sim_poster": "media/000021.png",
+      "source_poster": "https://dreamzero0.github.io/yam_gallery/videos/episode_000021_processed_small.jpg",
+      "validation": {
+        "episode": 21,
+        "kind": "bar",
+        "passed": true,
+        "checks": {
+          "lifted_clear_of_table": true,
+          "placed_at_source_goal": true,
+          "resting_on_target_surface": true,
+          "settled_after_release": true,
+          "finite_physics": true,
+          "rendered_all_frames": true,
+          "both_fingers_reopened": true
+        },
+        "initial_position_m": [
+          0.008973703719675541,
+          0.24329610168933868,
+          0.012999995611608028
+        ],
+        "final_position_m": [
+          0.02287646383047104,
+          0.42467379570007324,
+          0.014999995939433575
+        ],
+        "maximum_height_m": 0.1285906583070755,
+        "goal_xy_m": [
+          0.014950166112956765,
+          0.4235880398671096
+        ],
+        "goal_error_m": 0.00800031632096423,
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.0,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.0,
+            "duration_s": 2.5
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.5
+          },
+          {
+            "name": "retreat",
+            "start_s": 14.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 16.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manual video tracing + planar perspective fit + scripted physical IK control; no learned reconstruction or video-to-policy model.",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 0
+      },
+      "sim_sha256": "881a3406efbeeab54076a1136b53cd6a18c5f6da3912193873e1838b3e891ccb"
+    },
+    {
+      "episode": 22,
+      "source_url": "https://dreamzero0.github.io/yam_gallery/videos/episode_000022_processed_small.mp4",
+      "source_page": "https://dreamzero0.github.io/yam_gallery/",
+      "description": "Pick up the black bar and place it on the red horizontal pad.",
+      "duration_s": 4.916016,
+      "sha256": "1315281fb30992d5793e6e4352b7970e61579045e99be972d3a7fed67ca683ec",
+      "source_speed": 4,
+      "local_file": "000022.mp4",
+      "source_start_s": 0,
+      "source_end_s": 4.916016,
+      "source_credit": "DreamZero project \u2014 real YAM teleoperation",
+      "source_robot": "YAM",
+      "selection_note": "Public project-hosted source; YouTube downloader hit sign-in/bot gate. No third-party source media redistributed.",
+      "title": "Two-arm bar \u2192 pad",
+      "category": "rigid",
+      "caption": "Physical contact grasp; no object attachment.",
+      "sim_url": "media/000022.mp4",
+      "sim_poster": "media/000022.png",
+      "source_poster": "https://dreamzero0.github.io/yam_gallery/videos/episode_000022_processed_small.jpg",
+      "validation": {
+        "episode": 22,
+        "kind": "bar",
+        "passed": true,
+        "checks": {
+          "lifted_clear_of_table": true,
+          "placed_at_source_goal": true,
+          "resting_on_target_surface": true,
+          "settled_after_release": true,
+          "finite_physics": true,
+          "rendered_all_frames": true,
+          "both_fingers_reopened": true
+        },
+        "initial_position_m": [
+          0.07425583899021149,
+          0.29926395416259766,
+          0.012999995611608028
+        ],
+        "final_position_m": [
+          0.038853324949741364,
+          0.40462374687194824,
+          0.014999995939433575
+        ],
+        "maximum_height_m": 0.11848646402359009,
+        "goal_xy_m": [
+          0.03945130937535419,
+          0.4047160185919963
+        ],
+        "goal_error_m": 0.0006050615205052519,
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.0,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.0,
+            "duration_s": 2.5
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.5
+          },
+          {
+            "name": "retreat",
+            "start_s": 14.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 16.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manual video tracing + planar perspective fit + scripted physical IK control; no learned reconstruction or video-to-policy model.",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 0
+      },
+      "sim_sha256": "bb43ad04e1714f4a132776708018f82c66f312dce90d3e4f9c079daf9a90f31a"
+    },
+    {
+      "episode": 24,
+      "source_url": "https://dreamzero0.github.io/yam_gallery/videos/episode_000024_processed_small.mp4",
+      "source_page": "https://dreamzero0.github.io/yam_gallery/",
+      "description": "Pick up the black bar and place it on the red horizontal pad.",
+      "duration_s": 6.075,
+      "sha256": "5793e7af0e0a88ca9736003a24316468697435ccb8a7effc713a084030e0e31c",
+      "source_speed": 4,
+      "local_file": "000024.mp4",
+      "source_start_s": 0,
+      "source_end_s": 6.075,
+      "source_credit": "DreamZero project \u2014 real YAM teleoperation",
+      "source_robot": "YAM",
+      "selection_note": "Public project-hosted source; YouTube downloader hit sign-in/bot gate. No third-party source media redistributed.",
+      "title": "Two-arm bar \u2192 pad",
+      "category": "rigid",
+      "caption": "Physical contact grasp; no object attachment.",
+      "sim_url": "media/000024.mp4",
+      "sim_poster": "media/000024.png",
+      "source_poster": "https://dreamzero0.github.io/yam_gallery/videos/episode_000024_processed_small.jpg",
+      "validation": {
+        "episode": 24,
+        "kind": "bar",
+        "passed": true,
+        "checks": {
+          "lifted_clear_of_table": true,
+          "placed_at_source_goal": true,
+          "resting_on_target_surface": true,
+          "settled_after_release": true,
+          "finite_physics": true,
+          "rendered_all_frames": true,
+          "both_fingers_reopened": true
+        },
+        "initial_position_m": [
+          0.058329030871391296,
+          0.24329610168933868,
+          0.012999999336898327
+        ],
+        "final_position_m": [
+          0.01774839498102665,
+          0.43304643034935,
+          0.014999995008111
+        ],
+        "maximum_height_m": 0.12996268272399902,
+        "goal_xy_m": [
+          0.015029367730047172,
+          0.4331740181964758
+        ],
+        "goal_error_m": 0.0027220190760358772,
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.0,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.0,
+            "duration_s": 2.5
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.5
+          },
+          {
+            "name": "retreat",
+            "start_s": 14.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 16.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manual video tracing + planar perspective fit + scripted physical IK control; no learned reconstruction or video-to-policy model.",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 0
+      },
+      "sim_sha256": "14f293dd7953501afd5a267a642dee3eee082954e2f941c61e3f00d6e033953d"
+    },
+    {
+      "episode": 10,
+      "source_url": "https://dreamzero0.github.io/yam_gallery/videos/episode_000010_processed_small.mp4",
+      "source_page": "https://dreamzero0.github.io/yam_gallery/",
+      "description": "Fold the towel from bottom to top (first fold only).",
+      "duration_s": 4.175,
+      "sha256": "a9c8405303a594d6ffd679810d78cd7c4c5e9925ad03cf3d764c55de424ce0ba",
+      "source_speed": 8,
+      "local_file": "000010.mp4",
+      "source_start_s": 0,
+      "source_end_s": 1.9,
+      "source_credit": "DreamZero project \u2014 real YAM teleoperation",
+      "source_robot": "YAM",
+      "selection_note": "Public project-hosted source; YouTube downloader hit sign-in/bot gate. No third-party source media redistributed.",
+      "title": "Towel \u2192 half fold",
+      "category": "cloth",
+      "caption": "Native PhysX cloth \u00b7 idealized corner grips \u00b7 first fold.",
+      "sim_url": "media/000010.mp4",
+      "sim_poster": "media/000010.png",
+      "source_poster": "https://dreamzero0.github.io/yam_gallery/videos/episode_000010_processed_small.jpg",
+      "validation": {
+        "episode": 10,
+        "kind": "cloth",
+        "passed": true,
+        "checks": {
+          "cloth_lifted": true,
+          "corners_folded_to_far_edge": true,
+          "free_vertices_deformed": true,
+          "cloth_stayed_above_table": true,
+          "finite_physics": true,
+          "attachments_released": true,
+          "cloth_resting_after_release": true,
+          "rendered_all_frames": true
+        },
+        "goal_error_m": 0.026541419816919754,
+        "max_height_m": 0.17811313271522522,
+        "final_corner_positions_m": [
+          [
+            -0.19474749267101288,
+            0.4471905827522278,
+            0.011475902982056141
+          ],
+          [
+            0.155784010887146,
+            0.4547474682331085,
+            0.011461423709988594
+          ]
+        ],
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 3.0
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.5,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.5,
+            "duration_s": 2.0
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.0
+          },
+          {
+            "name": "retreat",
+            "start_s": 13.5,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 15.5,
+            "duration_s": 2.5
+          }
+        ],
+        "method": "Manual video tracing + planar perspective fit + scripted physical IK control; no learned reconstruction or video-to-policy model.",
+        "grasp_model": "Idealized corner attachments; native PhysX particle-cloth gravity, springs, collisions and self-collision.",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 2
+      },
+      "sim_sha256": "97604ae0d547b0bfa58921fcf9e32cc4ba0f3903dda92ff651a15935cff6beec"
+    },
+    {
+      "episode": 13,
+      "source_url": "https://dreamzero0.github.io/yam_gallery/videos/episode_000013_processed_small.mp4",
+      "source_page": "https://dreamzero0.github.io/yam_gallery/",
+      "description": "Fold the towel from bottom to top (first fold only).",
+      "duration_s": 4.069987,
+      "sha256": "25fe17153a3156549d6ef4233c4ea71edb34abb32ff4df7cf7c04f4b4fd0f737",
+      "source_speed": 8,
+      "local_file": "000013.mp4",
+      "source_start_s": 0,
+      "source_end_s": 2.1,
+      "source_credit": "DreamZero project \u2014 real YAM teleoperation",
+      "source_robot": "YAM",
+      "selection_note": "Public project-hosted source; YouTube downloader hit sign-in/bot gate. No third-party source media redistributed.",
+      "title": "Towel \u2192 half fold",
+      "category": "cloth",
+      "caption": "Native PhysX cloth \u00b7 idealized corner grips \u00b7 first fold.",
+      "sim_url": "media/000013.mp4",
+      "sim_poster": "media/000013.png",
+      "source_poster": "https://dreamzero0.github.io/yam_gallery/videos/episode_000013_processed_small.jpg",
+      "validation": {
+        "episode": 13,
+        "kind": "cloth",
+        "passed": true,
+        "checks": {
+          "cloth_lifted": true,
+          "corners_folded_to_far_edge": true,
+          "free_vertices_deformed": true,
+          "cloth_stayed_above_table": true,
+          "finite_physics": true,
+          "attachments_released": true,
+          "cloth_resting_after_release": true,
+          "rendered_all_frames": true
+        },
+        "goal_error_m": 0.030726891098636282,
+        "max_height_m": 0.1832800805568695,
+        "final_corner_positions_m": [
+          [
+            -0.16713262349367142,
+            0.47395703196525574,
+            0.011220659129321575
+          ],
+          [
+            0.17486237734556198,
+            0.48465511202812195,
+            0.011219728738069534
+          ]
+        ],
+        "frames": 216,
+        "fps": 12,
+        "simulation_duration_s": 18.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 0.5
+          },
+          {
+            "name": "approach",
+            "start_s": 0.5,
+            "duration_s": 2.5
+          },
+          {
+            "name": "grasp",
+            "start_s": 3.0,
+            "duration_s": 1.5
+          },
+          {
+            "name": "lift",
+            "start_s": 4.5,
+            "duration_s": 3.0
+          },
+          {
+            "name": "transfer",
+            "start_s": 7.5,
+            "duration_s": 3.0
+          },
+          {
+            "name": "lower",
+            "start_s": 10.5,
+            "duration_s": 2.0
+          },
+          {
+            "name": "release",
+            "start_s": 12.5,
+            "duration_s": 1.0
+          },
+          {
+            "name": "retreat",
+            "start_s": 13.5,
+            "duration_s": 2.0
+          },
+          {
+            "name": "settle",
+            "start_s": 15.5,
+            "duration_s": 2.5
+          }
+        ],
+        "method": "Manual video tracing + planar perspective fit + scripted physical IK control; no learned reconstruction or video-to-policy model.",
+        "grasp_model": "Idealized corner attachments; native PhysX particle-cloth gravity, springs, collisions and self-collision.",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 2
+      },
+      "sim_sha256": "8f1d275786ae48fbee5e20539c9ff109b0261bf14daa5fd8fde309edfd21fd18"
+    },
+    {
+      "episode": 101,
+      "source_url": "https://remodel-project.eu/wp-content/uploads/2023/05/ariadne_grasp.mp4",
+      "source_page": "https://remodel-project.eu/content/videos/",
+      "description": "Grasp a suspended cable (no placement in this source segment).",
+      "duration_s": 16.56,
+      "sha256": "2584ea7a231d9b799e57bdc6d9d894098aa014045a9401d5df532d10c31e4464",
+      "source_speed": null,
+      "local_file": "cable-grasp.mp4",
+      "source_start_s": 9,
+      "source_end_s": 16.56,
+      "source_credit": "REMODEL project \u2014 real cable manipulation",
+      "source_robot": "Franka (retargeted to YAM)",
+      "selection_note": "Public project-hosted source; YouTube downloader hit sign-in/bot gate. No third-party source media redistributed.",
+      "source_crop": {
+        "x": 0,
+        "y": 90,
+        "width": 1152,
+        "height": 900,
+        "input_width": 1920,
+        "input_height": 1080
+      },
+      "title": "Cable \u2192 grasp",
+      "category": "cable",
+      "caption": "Native PhysX linked cable \u00b7 idealized grips \u00b7 source robot retargeted.",
+      "sim_url": "media/000101.mp4",
+      "sim_poster": "media/000101.png",
+      "source_poster": "",
+      "validation": {
+        "episode": 101,
+        "kind": "cable_grasp",
+        "passed": true,
+        "checks": {
+          "finite_physics": true,
+          "cable_length_preserved": true,
+          "cable_has_nonrigid_bend": true,
+          "idealized_grasp_applied": true,
+          "rendered_all_frames": true
+        },
+        "max_point_displacement_m": 0.014952532015740871,
+        "maximum_link_length_m": 0.011228238232433796,
+        "final_endpoints_m": [
+          [
+            -0.3199999928474426,
+            0.3199999928474426,
+            0.10999999940395355
+          ],
+          [
+            0.3199999928474426,
+            0.3199999928474426,
+            0.10999999940395355
+          ]
+        ],
+        "frames": 144,
+        "fps": 12,
+        "simulation_duration_s": 12.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 1.0
+          },
+          {
+            "name": "approach",
+            "start_s": 1.0,
+            "duration_s": 5.0
+          },
+          {
+            "name": "grasp",
+            "start_s": 6.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "lift",
+            "start_s": 8.0,
+            "duration_s": 2.0
+          },
+          {
+            "name": "hold",
+            "start_s": 10.0,
+            "duration_s": 2.0
+          }
+        ],
+        "method": "Manual video tracing + planar perspective fit + scripted physical IK control; no learned reconstruction or video-to-policy model.",
+        "grasp_model": "Idealized gripper attachment to one cable link; rigid-link PhysX cable with spherical joints.",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 1
+      },
+      "sim_sha256": "4485856605584f22040b8e951d321d026cb0452defe0e12f05c9600132429050"
+    },
+    {
+      "episode": 102,
+      "source_url": "https://remodel-project.eu/wp-content/uploads/2023/05/demo5.3.mp4",
+      "source_page": "https://remodel-project.eu/content/videos/",
+      "description": "Bimanual cable shaping: raise left end and lower right end.",
+      "duration_s": 94.225,
+      "sha256": "b0828977493246b1f32f0eaf9cea88b17e111db17726a4ab0920ce09864e77ce",
+      "source_speed": null,
+      "local_file": "cable-bimanual.mp4",
+      "source_start_s": 33,
+      "source_end_s": 43,
+      "source_credit": "REMODEL project \u2014 real cable manipulation",
+      "source_robot": "UR dual arm (retargeted to YAM)",
+      "selection_note": "Public project-hosted source; YouTube downloader hit sign-in/bot gate. No third-party source media redistributed.",
+      "title": "Cable \u2192 change bend",
+      "category": "cable",
+      "caption": "Native PhysX linked cable \u00b7 idealized grips \u00b7 source robot retargeted.",
+      "sim_url": "media/000102.mp4",
+      "sim_poster": "media/000102.png",
+      "source_poster": "",
+      "validation": {
+        "episode": 102,
+        "kind": "cable_shape",
+        "passed": true,
+        "checks": {
+          "finite_physics": true,
+          "cable_length_preserved": true,
+          "cable_has_nonrigid_bend": true,
+          "idealized_grasp_applied": true,
+          "ends_changed_height": true,
+          "rendered_all_frames": true
+        },
+        "max_point_displacement_m": 0.11054901778697968,
+        "maximum_link_length_m": 0.009765363298356533,
+        "final_endpoints_m": [
+          [
+            -0.20963747799396515,
+            0.30015236139297485,
+            0.24716106057167053
+          ],
+          [
+            0.21014194190502167,
+            0.29984164237976074,
+            0.1374763548374176
+          ]
+        ],
+        "frames": 144,
+        "fps": 12,
+        "simulation_duration_s": 12.0,
+        "phases": [
+          {
+            "name": "ready",
+            "start_s": 0.0,
+            "duration_s": 1.0
+          },
+          {
+            "name": "lift",
+            "start_s": 1.0,
+            "duration_s": 7.0
+          },
+          {
+            "name": "hold",
+            "start_s": 8.0,
+            "duration_s": 4.0
+          }
+        ],
+        "method": "Manual video tracing + planar perspective fit + scripted physical IK control; no learned reconstruction or video-to-policy model.",
+        "grasp_model": "Idealized end attachments; rigid-link PhysX cable with spherical joints. Loop topology simplified to a hanging bend.",
+        "object_pose_teleports_during_rollout": 0,
+        "grasp_attachment_constraints": 2
+      },
+      "sim_sha256": "3ca74fa7beba42766bfa6f09cf98f50d30282f3bf3a6d8a1730080282ac6fe9a"
+    }
+  ],
+  "scene_spec": {
+    "source_page": "https://dreamzero0.github.io/yam_gallery/",
+    "method": "Manual video tracing + planar perspective fit + scripted physical IK control; no learned reconstruction or video-to-policy model.",
+    "table_assumed_width_m": 1.0,
+    "table_assumed_depth_m": 0.75,
+    "camera_position_m": [
+      0.0,
+      -0.8734254504988184,
+      0.7947698178194511
+    ],
+    "camera_rotation_opencv": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.955370358297013e-17,
+        -0.5418949259092951,
+        0.8404462441309137
+      ],
+      [
+        0.0,
+        -0.8404462441309137,
+        -0.5418949259092951
+      ]
+    ],
+    "camera_focal_pixels": 305.16420418688233,
+    "pixel_to_plane": [
+      [
+        0.003816793893129771,
+        0.0,
+        -0.6106870229007634
+      ],
+      [
+        -0.0,
+        -0.00559357725717294,
+        0.7886943932613845
+      ],
+      [
+        0.0,
+        0.004036149863999298,
+        0.430902869176099
+      ]
+    ],
+    "robot_mounts": {
+      "left": [
+        -0.265,
+        -0.025,
+        0.04
+      ],
+      "right": [
+        0.265,
+        -0.025,
+        0.04
+      ]
+    },
+    "robot_yaw_rad": 1.5707963267948966,
+    "episodes": [
+      {
+        "episode": 2,
+        "kind": "cube",
+        "pick_pixel": [
+          115,
+          94
+        ],
+        "goal_pixel": [
+          150,
+          103
+        ],
+        "pick_xy_m": [
+          -0.21196534921494317,
+          0.32444504602057384
+        ],
+        "goal_xy_m": [
+          -0.0450823919577159,
+          0.25106228624727944
+        ],
+        "size_m": [
+          0.048,
+          0.048,
+          0.048
+        ],
+        "goal_support_height_m": 0.002,
+        "active_arms": [
+          "left"
+        ],
+        "ik_seed_solutions": {
+          "left": {
+            "hover": [
+              -0.15063032914603164,
+              1.8987853605082516,
+              1.483965177517662,
+              -1.1559797754123409,
+              -1.2475655922421054e-06,
+              -0.15062047060886585
+            ],
+            "pick": [
+              -0.1506298655300143,
+              2.0147889866614315,
+              1.2638493379928346,
+              -0.8198603097349066,
+              -9.625487290453503e-07,
+              -0.15062012281635076
+            ],
+            "lift": [
+              -0.15063032914600455,
+              1.898785359617692,
+              1.4839651757127268,
+              -1.1559797742886306,
+              -1.247565595379696e-06,
+              -0.15062047060886613
+            ],
+            "transfer": [
+              -0.6726891505084953,
+              1.8969127460286193,
+              1.4814542537118929,
+              -1.1553407074701696,
+              4.852675331885719e-07,
+              -0.6726792903713328
+            ],
+            "place": [
+              -0.6726891363280831,
+              1.9969090955964797,
+              1.2775562347866074,
+              -0.8514463389788364,
+              7.3196598264278e-07,
+              -0.6726793736149106
+            ]
+          }
+        },
+        "ik_max_error": {
+          "left": 2.909058114353924e-10
+        }
+      },
+      {
+        "episode": 6,
+        "kind": "cube",
+        "pick_pixel": [
+          114,
+          92
+        ],
+        "goal_pixel": [
+          114,
+          103
+        ],
+        "pick_xy_m": [
+          -0.21885595537569727,
+          0.34165481789347035
+        ],
+        "goal_xy_m": [
+          -0.2073790030054928,
+          0.25106228624727944
+        ],
+        "size_m": [
+          0.048,
+          0.048,
+          0.048
+        ],
+        "goal_support_height_m": 0.002,
+        "active_arms": [
+          "left"
+        ],
+        "ik_seed_solutions": {
+          "left": {
+            "hover": [
+              -0.12520465800393726,
+              1.9601387385025952,
+              1.5681595872118133,
+              -1.1788208199516927,
+              -1.1876470542806573e-06,
+              -0.1251948566066909
+            ],
+            "pick": [
+              -0.12520422010520016,
+              2.06844189991611,
+              1.3464667826040784,
+              -0.8488248539310131,
+              -9.281858069431622e-07,
+              -0.1251945419661642
+            ],
+            "lift": [
+              -0.1252046580039368,
+              1.9601387385026143,
+              1.5681595872118543,
+              -1.178820819951718,
+              -1.1876470559491898e-06,
+              -0.12519485660668978
+            ],
+            "transfer": [
+              -0.20578264739977126,
+              1.6329161103391747,
+              1.1631983379424806,
+              -1.1010821501014645,
+              -1.7383017968196229e-06,
+              -0.2057726525260401
+            ],
+            "place": [
+              -0.2057820452153538,
+              1.757966266500236,
+              0.951672685096338,
+              -0.7645063410927021,
+              -1.4092656390176521e-06,
+              -0.20577209156721377
+            ]
+          }
+        },
+        "ik_max_error": {
+          "left": 7.039252342685059e-12
+        }
+      },
+      {
+        "episode": 7,
+        "kind": "cube",
+        "pick_pixel": [
+          155,
+          103
+        ],
+        "goal_pixel": [
+          114,
+          103
+        ],
+        "pick_xy_m": [
+          -0.022541195978858015,
+          0.25106228624727944
+        ],
+        "goal_xy_m": [
+          -0.2073790030054928,
+          0.25106228624727944
+        ],
+        "size_m": [
+          0.048,
+          0.048,
+          0.048
+        ],
+        "goal_support_height_m": 0.002,
+        "active_arms": [
+          "left"
+        ],
+        "ik_seed_solutions": {
+          "left": {
+            "hover": [
+              -0.7206927310907191,
+              1.951952256766533,
+              1.5567163355758955,
+              -1.1755631654630543,
+              7.574896378998904e-07,
+              -0.7206829215260856
+            ],
+            "pick": [
+              -0.7206927735151015,
+              2.061304445042822,
+              1.3353290159296836,
+              -0.8448236575405604,
+              1.0204090007789637e-06,
+              -0.7206830863907466
+            ],
+            "lift": [
+              -0.720692731090719,
+              1.9519522567665333,
+              1.5567163355758957,
+              -1.1755631654630543,
+              7.574896379141651e-07,
+              -0.7206829215260854
+            ],
+            "transfer": [
+              -0.20578264741620203,
+              1.6329161103230254,
+              1.1631983379422333,
+              -1.101082150114764,
+              -1.7383065587572064e-06,
+              -0.2057726525420045
+            ],
+            "place": [
+              -0.20578204521534657,
+              1.757966266500246,
+              0.9516726850963428,
+              -0.7645063410926899,
+              -1.409265638382876e-06,
+              -0.20577209156720633
+            ]
+          }
+        },
+        "ik_max_error": {
+          "left": 3.9692572559599834e-13
+        }
+      },
+      {
+        "episode": 9,
+        "kind": "cube",
+        "pick_pixel": [
+          115,
+          87
+        ],
+        "goal_pixel": [
+          114,
+          102
+        ],
+        "pick_xy_m": [
+          -0.21962302255132954,
+          0.38623359138337254
+        ],
+        "goal_xy_m": [
+          -0.20837238363011562,
+          0.2589034676663542
+        ],
+        "size_m": [
+          0.048,
+          0.048,
+          0.048
+        ],
+        "goal_support_height_m": 0.002,
+        "active_arms": [
+          "left"
+        ],
+        "ik_seed_solutions": {
+          "left": {
+            "hover": [
+              -0.1099098664230263,
+              2.1388378983988354,
+              1.8334296428083403,
+              -1.265391722241902,
+              -8.231047173963383e-07,
+              -0.10990028315654059
+            ],
+            "pick": [
+              -0.10990954725713374,
+              2.2219700846247172,
+              1.5961530320744484,
+              -0.944982925282672,
+              -6.422946270864977e-07,
+              -0.10990009025649977
+            ],
+            "lift": [
+              -0.10990986642302664,
+              2.1388378983988368,
+              1.8334296428083443,
+              -1.2653917222419053,
+              -8.231047179506456e-07,
+              -0.10990028315653988
+            ],
+            "transfer": [
+              -0.19688925168868227,
+              1.6608536302835128,
+              1.1934176144822928,
+              -1.1033639132270894,
+              -1.6963960305044428e-06,
+              -0.19687926244946788
+            ],
+            "place": [
+              -0.19688866977191696,
+              1.7836123439858749,
+              0.9836240318231017,
+              -0.7708116168664809,
+              -1.374576945825317e-06,
+              -0.19687872964304118
+            ]
+          }
+        },
+        "ik_max_error": {
+          "left": 2.8921053562955656e-13
+        }
+      },
+      {
+        "episode": 17,
+        "kind": "bar",
+        "pick_pixel": [
+          176,
+          96
+        ],
+        "goal_pixel": [
+          157,
+          83
+        ],
+        "pick_xy_m": [
+          0.07462206497266001,
+          0.3075747828883884
+        ],
+        "goal_xy_m": [
+          -0.01495016611295691,
+          0.4235880398671096
+        ],
+        "size_m": [
+          0.34,
+          0.04,
+          0.026
+        ],
+        "goal_support_height_m": 0.002,
+        "active_arms": [
+          "left",
+          "right"
+        ],
+        "ik_seed_solutions": {
+          "left": {
+            "hover": [
+              -0.5406006801690413,
+              2.03195289114135,
+              1.6712666150431537,
+              -1.2101132000983126,
+              4.1762191077911287e-07,
+              1.0302053693630335
+            ],
+            "pick": [
+              -0.5406006221354953,
+              2.1494546192309727,
+              1.4272970157812253,
+              -0.8486418727493085,
+              6.880734217545002e-07,
+              1.030205272646774
+            ],
+            "lift": [
+              -0.540600680131562,
+              2.031952891158462,
+              1.671266615071767,
+              -1.2101132001127266,
+              4.176272011639423e-07,
+              1.0302053694636306
+            ],
+            "transfer": [
+              -0.24058384748232897,
+              2.378299783156313,
+              2.2317967207428353,
+              -1.4242968317924727,
+              1.3900441457881661e-07,
+              1.3302216601603416
+            ],
+            "place": [
+              -0.24058380015189942,
+              2.4156066607666125,
+              1.9264135104446034,
+              -1.081606743883669,
+              2.0609164825955142e-07,
+              1.3302216346994302
+            ]
+          },
+          "right": {
+            "hover": [
+              0.15032331292892664,
+              1.8347876197620177,
+              1.4000954492038866,
+              -1.1361077880714834,
+              -2.5113522922673816e-06,
+              -1.4204631057841623
+            ],
+            "pick": [
+              0.15032422756710132,
+              1.980826384003778,
+              1.1616665650148061,
+              -0.7516401395774851,
+              -2.1458742995290717e-06,
+              -1.4204623191936412
+            ],
+            "lift": [
+              0.15032331293942156,
+              1.834787619676039,
+              1.4000954489388673,
+              -1.136107787831712,
+              -2.5112740887648687e-06,
+              -1.4204631057939545
+            ],
+            "transfer": [
+              0.3023997260260155,
+              2.430003760557827,
+              2.3238151023946547,
+              -1.4646111751588047,
+              -1.7378895710973293e-06,
+              -1.2683875214680578
+            ],
+            "place": [
+              0.3024001161650599,
+              2.452163223626696,
+              1.9928574035405089,
+              -1.111494013152155,
+              -1.699987293875002e-06,
+              -1.268387176283011
+            ]
+          }
+        },
+        "ik_max_error": {
+          "left": 2.4747449354174226e-11,
+          "right": 8.730356803979029e-11
+        }
+      },
+      {
+        "episode": 21,
+        "kind": "bar",
+        "pick_pixel": [
+          162,
+          104
+        ],
+        "goal_pixel": [
+          163,
+          83
+        ],
+        "pick_xy_m": [
+          0.008973697782362058,
+          0.24329551315110873
+        ],
+        "goal_xy_m": [
+          0.014950166112956765,
+          0.4235880398671096
+        ],
+        "size_m": [
+          0.34,
+          0.04,
+          0.026
+        ],
+        "goal_support_height_m": 0.002,
+        "active_arms": [
+          "left",
+          "right"
+        ],
+        "ik_seed_solutions": {
+          "left": {
+            "hover": [
+              -0.4631399850241501,
+              1.6994769844443811,
+              1.236567348680606,
+              -1.1078899772764559,
+              -6.720350538062247e-07,
+              -2.033926333763321
+            ],
+            "pick": [
+              -0.4631396290891612,
+              1.863318937618953,
+              0.9927433400830578,
+              -0.7002240155015317,
+              -2.473480633312584e-07,
+              -2.0339260686133347
+            ],
+            "lift": [
+              -0.4631399850243041,
+              1.699476984056854,
+              1.236567347888841,
+              -1.1078899767707546,
+              -6.720350032214101e-07,
+              -2.0339263337636795
+            ],
+            "transfer": [
+              -0.3024202272147625,
+              2.4300037605009126,
+              2.3238151023143847,
+              -1.4646111751133615,
+              4.5003069452620476e-07,
+              -1.8732074747049983
+            ],
+            "place": [
+              -0.3024202700853944,
+              2.452163223606191,
+              1.9928574035336293,
+              -1.111494013147452,
+              4.879344862628033e-07,
+              -1.8732075625296747
+            ]
+          },
+          "right": {
+            "hover": [
+              0.4081564122421377,
+              1.6713269988030854,
+              1.2049616059287203,
+              -1.1044343053764434,
+              -3.8452413483179e-06,
+              -1.1626299279610441
+            ],
+            "pick": [
+              0.4081578746082423,
+              1.8386771031107367,
+              0.9592434396340196,
+              -0.6913660347685113,
+              -3.4091896350933207e-06,
+              -1.1626285468385429
+            ],
+            "lift": [
+              0.4081564122417694,
+              1.6713269984891523,
+              1.2049616052822334,
+              -1.1044343049604928,
+              -3.845241384078215e-06,
+              -1.1626299279611967
+            ],
+            "transfer": [
+              0.24056305855168383,
+              2.378299783179205,
+              2.2317967207610203,
+              -1.4242968318034002,
+              -1.6113483719208971e-06,
+              -1.3302240873985598
+            ],
+            "place": [
+              0.24056345830968756,
+              2.4156066607829745,
+              1.9264135104499447,
+              -1.0816067438873622,
+              -1.544262395556981e-06,
+              -1.330223760431897
+            ]
+          }
+        },
+        "ik_max_error": {
+          "left": 1.45743448152162e-10,
+          "right": 1.206715592588722e-10
+        }
+      },
+      {
+        "episode": 22,
+        "kind": "bar",
+        "pick_pixel": [
+          176,
+          97
+        ],
+        "goal_pixel": [
+          168,
+          85
+        ],
+        "pick_xy_m": [
+          0.0742558412461325,
+          0.2992638429531633
+        ],
+        "goal_xy_m": [
+          0.03945130937535419,
+          0.4047160185919963
+        ],
+        "size_m": [
+          0.34,
+          0.04,
+          0.026
+        ],
+        "goal_support_height_m": 0.002,
+        "active_arms": [
+          "left",
+          "right"
+        ],
+        "ik_seed_solutions": {
+          "left": {
+            "hover": [
+              -0.5510140748780522,
+              2.003085045954886,
+              1.629240386714348,
+              -1.1969547971027923,
+              3.812362938234696e-07,
+              1.0197920078094416
+            ],
+            "pick": [
+              -0.5510140094865766,
+              2.125002354635317,
+              1.3872820756750641,
+              -0.8330791773825168,
+              6.660152092733383e-07,
+              1.019791920114311
+            ],
+            "lift": [
+              -0.5510140748780517,
+              2.0030850459548866,
+              1.629240386714348,
+              -1.1969547971027918,
+              3.812362938803105e-07,
+              1.0197920078094427
+            ],
+            "transfer": [
+              -0.36551207273464514,
+              2.367600576217286,
+              2.2130155782608916,
+              -1.4162147593940357,
+              5.569595510824855e-07,
+              1.205293455317888
+            ],
+            "place": [
+              -0.3655121048235486,
+              2.4077512103632994,
+              1.9122311328614994,
+              -1.0752796798504054,
+              6.298838585482233e-07,
+              1.205293345562942
+            ]
+          },
+          "right": {
+            "hover": [
+              0.1552189225851367,
+              1.8044518141186783,
+              1.3617845050180934,
+              -1.1281326468132418,
+              -2.607248211293994e-06,
+              -1.4155674763027974
+            ],
+            "pick": [
+              0.15521988119346308,
+              1.9546031105852852,
+              1.1227145369180522,
+              -0.7389113821620483,
+              -2.227821806721141e-06,
+              -1.415566638667956
+            ],
+            "lift": [
+              0.15521892261960327,
+              1.8044518139688606,
+              1.361784504560606,
+              -1.1281326464238843,
+              -2.607063934012336e-06,
+              -1.4155674762909092
+            ],
+            "transfer": [
+              0.196501590887457,
+              2.250357142469123,
+              2.013137945771985,
+              -1.3335807326090177,
+              -1.7030993719444688e-06,
+              -1.3742853254103637
+            ],
+            "place": [
+              0.19650207442633041,
+              2.3168685372439644,
+              1.7507252569083716,
+              -1.0046566489710793,
+              -1.5696035740706381e-06,
+              -1.3742849572709808
+            ]
+          }
+        },
+        "ik_max_error": {
+          "left": 1.120861522935175e-12,
+          "right": 1.0253076792212093e-10
+        }
+      },
+      {
+        "episode": 24,
+        "kind": "bar",
+        "pick_pixel": [
+          173,
+          104
+        ],
+        "goal_pixel": [
+          163,
+          82
+        ],
+        "pick_xy_m": [
+          0.058329035585353184,
+          0.24329551315110873
+        ],
+        "goal_xy_m": [
+          0.015029367730047172,
+          0.4331740181964758
+        ],
+        "size_m": [
+          0.34,
+          0.04,
+          0.026
+        ],
+        "goal_support_height_m": 0.002,
+        "active_arms": [
+          "left",
+          "right"
+        ],
+        "ik_seed_solutions": {
+          "left": {
+            "hover": [
+              -0.5994476745500604,
+              1.792351168331763,
+              1.3467664658578253,
+              -1.125214657092288,
+              1.892874950353178e-09,
+              0.9713585873799679
+            ],
+            "pick": [
+              -0.5994475288488261,
+              1.9441242500288758,
+              1.107344858280263,
+              -0.7340199678151126,
+              3.8658214342063593e-07,
+              0.9713586151616047
+            ],
+            "lift": [
+              -0.5994476745500604,
+              1.792351168331763,
+              1.3467664658578253,
+              -1.1252146570922879,
+              1.892874966916776e-09,
+              0.9713585873799679
+            ],
+            "transfer": [
+              -0.2966188491216565,
+              2.4998509654883527,
+              2.451419357796729,
+              -1.522368231899513,
+              5.457096368306982e-07,
+              1.274186412499944
+            ],
+            "place": [
+              -0.29661896152735306,
+              2.496859671131561,
+              2.075055357871184,
+              -1.1489955255123028,
+              5.409490840529921e-07,
+              1.274186306445609
+            ]
+          },
+          "right": {
+            "hover": [
+              0.24355134966449085,
+              1.6120930086810392,
+              1.1412184554033025,
+              -1.0999253383082368,
+              -3.4298418476600966e-06,
+              -1.3272349794033924
+            ],
+            "pick": [
+              0.24355272001565928,
+              1.786541846416704,
+              0.890727987387344,
+              -0.6749860325538346,
+              -2.971330684484841e-06,
+              -1.3272336683061574
+            ],
+            "lift": [
+              0.24355134966421843,
+              1.6120930084712377,
+              1.1412184549577817,
+              -1.0999253380152472,
+              -3.4298418416027036e-06,
+              -1.3272349794036946
+            ],
+            "transfer": [
+              0.2355527322607195,
+              2.438872924828517,
+              2.3398082349523697,
+              -1.4717352086197246,
+              -1.4859297547457892e-06,
+              -1.3352345331246287
+            ],
+            "place": [
+              0.23555306597680786,
+              2.458168973973146,
+              2.0038415289086715,
+              -1.116472453364482,
+              -1.453217037403784e-06,
+              -1.335234238798219
+            ]
+          }
+        },
+        "ik_max_error": {
+          "left": 8.393497894048697e-10,
+          "right": 1.3758137457251847e-10
+        }
+      },
+      {
+        "episode": 10,
+        "kind": "cloth",
+        "active_arms": [
+          "left",
+          "right"
+        ],
+        "bounds": [
+          -0.17525662352416121,
+          0.17525662352416108,
+          0.2214607094276446,
+          0.47120593692022256
+        ],
+        "color": [
+          0.17,
+          0.18,
+          0.12
+        ],
+        "grasp_model": "Idealized corner attachments; native PhysX particle-cloth gravity, springs, collisions and self-collision.",
+        "tool_targets_m": {
+          "left": {
+            "hover": [
+              -0.17525662352416121,
+              0.2214607094276446,
+              0.12
+            ],
+            "pick": [
+              -0.17525662352416121,
+              0.2214607094276446,
+              0.008
+            ],
+            "lift": [
+              -0.17525662352416121,
+              0.34633332317393356,
+              0.18
+            ],
+            "transfer": [
+              -0.17525662352416121,
+              0.45920593692022255,
+              0.045
+            ],
+            "place": [
+              -0.17525662352416121,
+              0.46520593692022255,
+              0.012
+            ]
+          },
+          "right": {
+            "hover": [
+              0.17525662352416108,
+              0.2214607094276446,
+              0.12
+            ],
+            "pick": [
+              0.17525662352416108,
+              0.2214607094276446,
+              0.008
+            ],
+            "lift": [
+              0.17525662352416108,
+              0.34633332317393356,
+              0.18
+            ],
+            "transfer": [
+              0.17525662352416108,
+              0.45920593692022255,
+              0.045
+            ],
+            "place": [
+              0.17525662352416108,
+              0.46520593692022255,
+              0.012
+            ]
+          }
+        },
+        "ik_seed_solutions": {
+          "left": {
+            "hover": [
+              -0.3492178585005511,
+              1.554336694293768,
+              1.1030097572678847,
+              -1.119472825608942,
+              -1.4197248256180654e-06,
+              -0.3492078698965904
+            ],
+            "pick": [
+              -0.34921715749407745,
+              1.7526460083812163,
+              0.8225272045399799,
+              -0.6406809744619053,
+              -9.168672011090847e-07,
+              -0.34920720125467997
+            ],
+            "lift": [
+              -0.23714287756500843,
+              2.008154709135546,
+              1.8949753674048022,
+              -1.457620555452226,
+              -6.667428480892116e-07,
+              -0.23713312734150777
+            ],
+            "transfer": [
+              -0.18327146131722874,
+              2.5585374583217213,
+              2.2816633127419435,
+              -1.2939257875932944,
+              2.3101176121738567e-07,
+              -0.18326265390214996
+            ],
+            "place": [
+              -0.18107726468899712,
+              2.612630833581689,
+              2.2527323450386123,
+              -1.210901451397887,
+              2.9883790870588796e-07,
+              -0.1810685791783873
+            ]
+          },
+          "right": {
+            "hover": [
+              0.3491916358827752,
+              1.5543367284537009,
+              1.103009828689653,
+              -1.1194728785295402,
+              -3.95399232452993e-06,
+              0.3492016355015649
+            ],
+            "pick": [
+              0.34919341446498364,
+              1.7526460084042326,
+              0.8225272045442233,
+              -0.6406809744662634,
+              -3.4304500097425826e-06,
+              0.349203370700013
+            ],
+            "lift": [
+              0.2371194327975138,
+              2.008154709151942,
+              1.8949753674092327,
+              -1.4576205554563861,
+              -2.3925250395337966e-06,
+              0.23712918301791597
+            ],
+            "transfer": [
+              0.18325182394806286,
+              2.5585374583556613,
+              2.2816633127883583,
+              -1.2939257876208532,
+              -1.1077801234923432e-06,
+              0.18326063136084625
+            ],
+            "place": [
+              0.18105795219746423,
+              2.612630833594911,
+              2.252732345044557,
+              -1.2109014514016334,
+              -1.0241023989569565e-06,
+              0.1810666377056869
+            ]
+          }
+        },
+        "ik_max_error": {
+          "left": 1.5854955254155565e-08,
+          "right": 7.245644230314498e-09
+        }
+      },
+      {
+        "episode": 13,
+        "kind": "cloth",
+        "active_arms": [
+          "left",
+          "right"
+        ],
+        "bounds": [
+          -0.17844177622884783,
+          0.16368665969935697,
+          0.20193527591542024,
+          0.4620326528102323
+        ],
+        "color": [
+          0.17,
+          0.18,
+          0.12
+        ],
+        "grasp_model": "Idealized corner attachments; native PhysX particle-cloth gravity, springs, collisions and self-collision.",
+        "tool_targets_m": {
+          "left": {
+            "hover": [
+              -0.17844177622884783,
+              0.20193527591542024,
+              0.12
+            ],
+            "pick": [
+              -0.17844177622884783,
+              0.20193527591542024,
+              0.008
+            ],
+            "lift": [
+              -0.17844177622884783,
+              0.3319839643628263,
+              0.18
+            ],
+            "transfer": [
+              -0.17844177622884783,
+              0.4500326528102323,
+              0.045
+            ],
+            "place": [
+              -0.17844177622884783,
+              0.4560326528102323,
+              0.012
+            ]
+          },
+          "right": {
+            "hover": [
+              0.16368665969935697,
+              0.20193527591542024,
+              0.12
+            ],
+            "pick": [
+              0.16368665969935697,
+              0.20193527591542024,
+              0.008
+            ],
+            "lift": [
+              0.16368665969935697,
+              0.3319839643628263,
+              0.18
+            ],
+            "transfer": [
+              0.16368665969935697,
+              0.4500326528102323,
+              0.045
+            ],
+            "place": [
+              0.16368665969935697,
+              0.4560326528102323,
+              0.012
+            ]
+          }
+        },
+        "ik_seed_solutions": {
+          "left": {
+            "hover": [
+              -0.36440191992555243,
+              1.479845955455348,
+              1.032796507396611,
+              -1.123750296511336,
+              -1.5647114654000935e-06,
+              -0.36439194113859635
+            ],
+            "pick": [
+              -0.3644011311519183,
+              1.6865785053890705,
+              0.7430957564875927,
+              -0.6273170100434453,
+              -1.0379536269029396e-06,
+              -0.36439114892405783
+            ],
+            "lift": [
+              -0.23789137246521358,
+              1.9444403804646497,
+              1.8047879550179702,
+              -1.4311474711004104,
+              -8.194054001513589e-07,
+              -0.23788155555824492
+            ],
+            "transfer": [
+              -0.18024772093292693,
+              2.50037355764743,
+              2.1735844304232095,
+              -1.2440108130269065,
+              1.314116434351428e-07,
+              -0.18023878721805855
+            ],
+            "place": [
+              -0.17804695462262807,
+              2.556902578960397,
+              2.146966585468242,
+              -1.1608639484381573,
+              2.097418854549379e-07,
+              -0.1780381435878451
+            ]
+          },
+          "right": {
+            "hover": [
+              0.41987633582841905,
+              1.5016515732083247,
+              1.052737140444122,
+              -1.1218852481460395,
+              -4.334217981386216e-06,
+              0.4198863294298293
+            ],
+            "pick": [
+              0.4198783602639918,
+              1.7060407122112948,
+              0.7658964821886798,
+              -0.6306554509941124,
+              -3.79318835204003e-06,
+              0.41988833602243664
+            ],
+            "lift": [
+              0.27651975566108034,
+              1.9604304907398546,
+              1.8270447063706923,
+              -1.4374140760806875,
+              -2.648451373795187e-06,
+              0.2765295567619246
+            ],
+            "transfer": [
+              0.21011820697794364,
+              2.516903090429264,
+              2.20410714199479,
+              -1.2580039701401569,
+              -1.2672906791419793e-06,
+              0.21012710532514123
+            ],
+            "place": [
+              0.20757256075114908,
+              2.5725834232305242,
+              2.176587987972157,
+              -1.1748044858889526,
+              -1.1751105760571652e-06,
+              0.20758133690652641
+            ]
+          }
+        },
+        "ik_max_error": {
+          "left": 1.4770871754217958e-08,
+          "right": 8.619300112582934e-10
+        }
+      },
+      {
+        "episode": 101,
+        "kind": "cable_grasp",
+        "active_arms": [
+          "left"
+        ],
+        "color": [
+          0.72,
+          0.12,
+          0.025
+        ],
+        "grasp_model": "Idealized gripper attachment to one cable link; rigid-link PhysX cable with spherical joints.",
+        "tool_targets_m": {
+          "left": {
+            "hover": [
+              -0.06,
+              0.32,
+              0.18
+            ],
+            "pick": [
+              -0.06,
+              0.32,
+              0.036
+            ],
+            "lift": [
+              -0.06,
+              0.32,
+              0.04
+            ],
+            "transfer": [
+              -0.06,
+              0.32,
+              0.04
+            ],
+            "place": [
+              -0.06,
+              0.32,
+              0.04
+            ]
+          }
+        },
+        "ik_seed_solutions": {
+          "left": {
+            "hover": [
+              -0.5361563072799831,
+              2.097663069670714,
+              2.0283949622148283,
+              -1.5015313605442804,
+              5.578133622222817e-07,
+              -0.5361466675640902
+            ],
+            "pick": [
+              -0.5361564061642028,
+              2.1596217753664733,
+              1.5442144436235845,
+              -0.9553921551145697,
+              6.965699927473753e-07,
+              -0.5361468530467093
+            ],
+            "lift": [
+              -0.5361564087729642,
+              2.154032638951066,
+              1.5521563179427884,
+              -0.9689231534434979,
+              6.84213547228025e-07,
+              -0.5361468474533347
+            ],
+            "transfer": [
+              -0.5361564087729642,
+              2.154032638951066,
+              1.5521563179427884,
+              -0.9689231534434979,
+              6.84213547228025e-07,
+              -0.5361468474533347
+            ],
+            "place": [
+              -0.5361564087729642,
+              2.154032638951066,
+              1.5521563179427884,
+              -0.9689231534434979,
+              6.84213547228025e-07,
+              -0.5361468474533347
+            ]
+          }
+        },
+        "ik_max_error": {
+          "left": 2.768694600773425e-08
+        }
+      },
+      {
+        "episode": 102,
+        "kind": "cable_shape",
+        "active_arms": [
+          "left",
+          "right"
+        ],
+        "color": [
+          0.7,
+          0.01,
+          0.025
+        ],
+        "grasp_model": "Idealized end attachments; rigid-link PhysX cable with spherical joints. Loop topology simplified to a hanging bend.",
+        "tool_targets_m": {
+          "left": {
+            "hover": [
+              -0.21,
+              0.3,
+              0.14
+            ],
+            "pick": [
+              -0.21,
+              0.3,
+              0.14
+            ],
+            "lift": [
+              -0.21,
+              0.3,
+              0.25
+            ],
+            "transfer": [
+              -0.21,
+              0.3,
+              0.25
+            ],
+            "place": [
+              -0.21,
+              0.3,
+              0.25
+            ]
+          },
+          "right": {
+            "hover": [
+              0.21,
+              0.3,
+              0.25
+            ],
+            "pick": [
+              0.21,
+              0.3,
+              0.25
+            ],
+            "lift": [
+              0.21,
+              0.3,
+              0.14
+            ],
+            "transfer": [
+              0.21,
+              0.3,
+              0.14
+            ],
+            "place": [
+              0.21,
+              0.3,
+              0.14
+            ]
+          }
+        },
+        "ik_seed_solutions": {
+          "left": {
+            "hover": [
+              -0.16765434737032783,
+              1.795233261815945,
+              1.4506790831626237,
+              -1.226245725257342,
+              -1.408658767576348e-06,
+              -0.16764445563731328
+            ],
+            "pick": [
+              -0.16765434737032783,
+              1.795233261815945,
+              1.4506790831626237,
+              -1.226245725257342,
+              -1.408658767576348e-06,
+              -0.16764445563731328
+            ],
+            "lift": [
+              -0.16765467085729435,
+              1.8509857914955636,
+              1.9646160233984433,
+              -1.6844301802769266,
+              -1.3068322525545277e-06,
+              -0.16764477434498956
+            ],
+            "transfer": [
+              -0.16765467085729435,
+              1.8509857914955636,
+              1.9646160233984433,
+              -1.6844301802769266,
+              -1.3068322525545277e-06,
+              -0.16764477434498956
+            ],
+            "place": [
+              -0.16765467085729435,
+              1.8509857914955636,
+              1.9646160233984433,
+              -1.6844301802769266,
+              -1.3068322525545277e-06,
+              -0.16764477434498956
+            ]
+          },
+          "right": {
+            "hover": [
+              0.16762904229411857,
+              1.8509819855580383,
+              1.964607141144141,
+              -1.6844227933862088,
+              -2.5326476276646475e-06,
+              0.16763893881267986
+            ],
+            "pick": [
+              0.16762904229411857,
+              1.8509819855580383,
+              1.964607141144141,
+              -1.6844227933862088,
+              -2.5326476276646475e-06,
+              0.16763893881267986
+            ],
+            "lift": [
+              0.1676297845241056,
+              1.7952333648305612,
+              1.4506793192874694,
+              -1.226245903863275,
+              -2.675881621820466e-06,
+              0.16763971796225843
+            ],
+            "transfer": [
+              0.1676297845241056,
+              1.7952333648305612,
+              1.4506793192874694,
+              -1.226245903863275,
+              -2.675881621820466e-06,
+              0.16763971796225843
+            ],
+            "place": [
+              0.1676297845241056,
+              1.7952333648305612,
+              1.4506793192874694,
+              -1.226245903863275,
+              -2.675881621820466e-06,
+              0.16763971796225843
+            ]
+          }
+        },
+        "ik_max_error": {
+          "left": 4.366876642065309e-08,
+          "right": 1.200785585259688e-06
+        }
+      }
+    ],
+    "assumptions": {
+      "geometry": "Manually traced and approximate; not automatically inferred.",
+      "cloth_depth_scale": 0.83,
+      "cloth_robot_collisions": "Disabled: attachment-based grasp approximation. Table and cloth self-collision enabled.",
+      "cable_loop": "Simplified to hanging bend; knot topology and torsion not reproduced.",
+      "cable_scale": "Retargeted to YAM workspace; source robot differs.",
+      "materials": "Assumed, not system-identified."
+    }
+  },
+  "method": "Manual video tracing + planar perspective fit + scripted physical IK control; no learned reconstruction or video-to-policy model."
+}
